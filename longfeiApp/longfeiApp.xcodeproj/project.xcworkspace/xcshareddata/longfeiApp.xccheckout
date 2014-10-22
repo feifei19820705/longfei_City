@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A33DA641-426A-4C57-B650-65B584A84687</string>
+	<key>IDESourceControlProjectName</key>
+	<string>longfeiApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19502F28064A4363F15F68C80AD44A6A542EB246</key>
+		<string>https://github.com/feifei19820705/longfei_City.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>longfeiApp/longfeiApp/longfeiApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19502F28064A4363F15F68C80AD44A6A542EB246</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/feifei19820705/longfei_City.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19502F28064A4363F15F68C80AD44A6A542EB246</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19502F28064A4363F15F68C80AD44A6A542EB246</string>
+			<key>IDESourceControlWCCName</key>
+			<string>longfei_City</string>
+		</dict>
+	</array>
+</dict>
+</plist>

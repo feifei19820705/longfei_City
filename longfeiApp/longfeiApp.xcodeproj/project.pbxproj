@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48FD14219F786DE0006B690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14119F786DE0006B690 /* main.m */; };
+		F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14419F786DE0006B690 /* AppDelegate.m */; };
+		F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14919F786DE0006B690 /* Main.storyboard */; };
+		F48FD14D19F786DE0006B690 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14C19F786DE0006B690 /* Images.xcassets */; };
+		F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14E19F786DE0006B690 /* LaunchScreen.xib */; };
+		F48FD18619F7882A0006B690 /* AddressBookData.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16719F7882A0006B690 /* AddressBookData.mm */; };
+		F48FD18719F7882A0006B690 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16A19F7882A0006B690 /* RegexKitLite.m */; };
+		F48FD18819F7882A0006B690 /* AddressBook_Meet_ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */; };
+		F48FD18919F7882A0006B690 /* AddressBook_Meet_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */; };
+		F48FD18A19F7882A0006B690 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17019F7882A0006B690 /* pinyin.c */; };
+		F48FD18B19F7882A0006B690 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17319F7882A0006B690 /* POAPinyin.m */; };
+		F48FD18C19F7882A0006B690 /* common_button_2word_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17519F7882A0006B690 /* common_button_2word_down.png */; };
+		F48FD18D19F7882A0006B690 /* common_button_2word_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */; };
+		F48FD18E19F7882A0006B690 /* common_button_2word_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17719F7882A0006B690 /* common_button_2word_up.png */; };
+		F48FD18F19F7882A0006B690 /* common_button_2word_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */; };
+		F48FD19019F7882A0006B690 /* common_button_back_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17919F7882A0006B690 /* common_button_back_down.png */; };
+		F48FD19119F7882A0006B690 /* common_button_back_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17A19F7882A0006B690 /* common_button_back_up.png */; };
+		F48FD19219F7882A0006B690 /* common_titlebar.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17B19F7882A0006B690 /* common_titlebar.png */; };
+		F48FD19319F7882A0006B690 /* personalcenter_icon_search_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */; };
+		F48FD19419F7882A0006B690 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17F19F7882A0006B690 /* JSONKit.m */; };
+		F48FD19519F7882A0006B690 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD18119F7882A0006B690 /* MainViewControllor.m */; };
+		F48FD19619F7882A0006B690 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD18219F7882A0006B690 /* MainViewControllor.xib */; };
+		F48FD19719F7882A0006B690 /* MeetContactCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD18419F7882A0006B690 /* MeetContactCell.mm */; };
+		F48FD19819F7882A0006B690 /* MeetContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD18519F7882A0006B690 /* MeetContactCell.xib */; };
+		F48FD19B19F7888A0006B690 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19919F7888A0006B690 /* AddressBook.framework */; };
+		F48FD19C19F7888A0006B690 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19A19F7888A0006B690 /* AddressBookUI.framework */; };
+		F48FD19E19F788990006B690 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19D19F788990006B690 /* CoreGraphics.framework */; };
+		F48FD1A019F788A40006B690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19F19F788A40006B690 /* Foundation.framework */; };
+		F48FD1A219F788AE0006B690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD1A119F788AE0006B690 /* UIKit.framework */; };
+		F48FD1A419F788C70006B690 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD1A319F788C70006B690 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48FD15619F786DE0006B690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48FD13419F786DD0006B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48FD13B19F786DE0006B690;
+			remoteInfo = longfeiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48FD13C19F786DE0006B690 /* longfeiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longfeiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48FD14019F786DE0006B690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48FD14119F786DE0006B690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48FD14319F786DE0006B690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F48FD14419F786DE0006B690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F48FD14A19F786DE0006B690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48FD14C19F786DE0006B690 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F48FD14F19F786DE0006B690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F48FD15519F786DE0006B690 /* longfeiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = longfeiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48FD16619F7882A0006B690 /* AddressBookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookData.h; sourceTree = "<group>"; };
+		F48FD16719F7882A0006B690 /* AddressBookData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBookData.mm; sourceTree = "<group>"; };
+		F48FD16919F7882A0006B690 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		F48FD16A19F7882A0006B690 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		F48FD16B19F7882A0006B690 /* AddressBook_Meet_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook_Meet_ViewController.h; sourceTree = "<group>"; };
+		F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBook_Meet_ViewController.mm; sourceTree = "<group>"; };
+		F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBook_Meet_ViewController.xib; sourceTree = "<group>"; };
+		F48FD16E19F7882A0006B690 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F48FD17019F7882A0006B690 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		F48FD17119F7882A0006B690 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		F48FD17219F7882A0006B690 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		F48FD17319F7882A0006B690 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
+		F48FD17519F7882A0006B690 /* common_button_2word_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_down.png; sourceTree = "<group>"; };
+		F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_down@2x.png"; sourceTree = "<group>"; };
+		F48FD17719F7882A0006B690 /* common_button_2word_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_up.png; sourceTree = "<group>"; };
+		F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_up@2x.png"; sourceTree = "<group>"; };
+		F48FD17919F7882A0006B690 /* common_button_back_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_down.png; sourceTree = "<group>"; };
+		F48FD17A19F7882A0006B690 /* common_button_back_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_up.png; sourceTree = "<group>"; };
+		F48FD17B19F7882A0006B690 /* common_titlebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_titlebar.png; sourceTree = "<group>"; };
+		F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalcenter_icon_search_background.png; sourceTree = "<group>"; };
+		F48FD17E19F7882A0006B690 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		F48FD17F19F7882A0006B690 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		F48FD18019F7882A0006B690 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
+		F48FD18119F7882A0006B690 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
+		F48FD18219F7882A0006B690 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
+		F48FD18319F7882A0006B690 /* MeetContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetContactCell.h; sourceTree = "<group>"; };
+		F48FD18419F7882A0006B690 /* MeetContactCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeetContactCell.mm; sourceTree = "<group>"; };
+		F48FD18519F7882A0006B690 /* MeetContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeetContactCell.xib; sourceTree = "<group>"; };
+		F48FD19919F7888A0006B690 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F48FD19A19F7888A0006B690 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F48FD19D19F788990006B690 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F48FD19F19F788A40006B690 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F48FD1A119F788AE0006B690 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F48FD1A319F788C70006B690 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48FD13919F786DE0006B690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FD1A419F788C70006B690 /* libicucore.dylib in Frameworks */,
+				F48FD1A219F788AE0006B690 /* UIKit.framework in Frameworks */,
+				F48FD1A019F788A40006B690 /* Foundation.framework in Frameworks */,
+				F48FD19E19F788990006B690 /* CoreGraphics.framework in Frameworks */,
+				F48FD19B19F7888A0006B690 /* AddressBook.framework in Frameworks */,
+				F48FD19C19F7888A0006B690 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FD15219F786DE0006B690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48FD13319F786DD0006B690 = {
+			isa = PBXGroup;
+			children = (
+				F48FD13E19F786DE0006B690 /* longfeiApp */,
+				F48FD13D19F786DE0006B690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48FD13D19F786DE0006B690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD13C19F786DE0006B690 /* longfeiApp.app */,
+				F48FD15519F786DE0006B690 /* longfeiAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48FD13E19F786DE0006B690 /* longfeiApp */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1A519F799350006B690 /* Frameworks */,
+				F48FD16519F7882A0006B690 /* AddressBook */,
+				F48FD16B19F7882A0006B690 /* AddressBook_Meet_ViewController.h */,
+				F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */,
+				F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */,
+				F48FD16E19F7882A0006B690 /* Common.h */,
+				F48FD16F19F7882A0006B690 /* friendListSearchHelp */,
+				F48FD17419F7882A0006B690 /* imageResource */,
+				F48FD17D19F7882A0006B690 /* JSONKit */,
+				F48FD18019F7882A0006B690 /* MainViewControllor.h */,
+				F48FD18119F7882A0006B690 /* MainViewControllor.m */,
+				F48FD18219F7882A0006B690 /* MainViewControllor.xib */,
+				F48FD18319F7882A0006B690 /* MeetContactCell.h */,
+				F48FD18419F7882A0006B690 /* MeetContactCell.mm */,
+				F48FD18519F7882A0006B690 /* MeetContactCell.xib */,
+				F48FD14319F786DE0006B690 /* AppDelegate.h */,
+				F48FD14419F786DE0006B690 /* AppDelegate.m */,
+				F48FD14919F786DE0006B690 /* Main.storyboard */,
+				F48FD14C19F786DE0006B690 /* Images.xcassets */,
+				F48FD14E19F786DE0006B690 /* LaunchScreen.xib */,
+				F48FD13F19F786DE0006B690 /* Supporting Files */,
+			);
+			path = longfeiApp;
+			sourceTree = "<group>";
+		};
+		F48FD13F19F786DE0006B690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD14019F786DE0006B690 /* Info.plist */,
+				F48FD14119F786DE0006B690 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F48FD16519F7882A0006B690 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD16619F7882A0006B690 /* AddressBookData.h */,
+				F48FD16719F7882A0006B690 /* AddressBookData.mm */,
+				F48FD16819F7882A0006B690 /* RegexKitLite-4.0 */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		F48FD16819F7882A0006B690 /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD16919F7882A0006B690 /* RegexKitLite.h */,
+				F48FD16A19F7882A0006B690 /* RegexKitLite.m */,
+			);
+			path = "RegexKitLite-4.0";
+			sourceTree = "<group>";
+		};
+		F48FD16F19F7882A0006B690 /* friendListSearchHelp */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD17019F7882A0006B690 /* pinyin.c */,
+				F48FD17119F7882A0006B690 /* pinyin.h */,
+				F48FD17219F7882A0006B690 /* POAPinyin.h */,
+				F48FD17319F7882A0006B690 /* POAPinyin.m */,
+			);
+			path = friendListSearchHelp;
+			sourceTree = "<group>";
+		};
+		F48FD17419F7882A0006B690 /* imageResource */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD17519F7882A0006B690 /* common_button_2word_down.png */,
+				F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */,
+				F48FD17719F7882A0006B690 /* common_button_2word_up.png */,
+				F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */,
+				F48FD17919F7882A0006B690 /* common_button_back_down.png */,
+				F48FD17A19F7882A0006B690 /* common_button_back_up.png */,
+				F48FD17B19F7882A0006B690 /* common_titlebar.png */,
+				F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */,
+			);
+			path = imageResource;
+			sourceTree = "<group>";
+		};
+		F48FD17D19F7882A0006B690 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD17E19F7882A0006B690 /* JSONKit.h */,
+				F48FD17F19F7882A0006B690 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		F48FD1A519F799350006B690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1A319F788C70006B690 /* libicucore.dylib */,
+				F48FD1A119F788AE0006B690 /* UIKit.framework */,
+				F48FD19F19F788A40006B690 /* Foundation.framework */,
+				F48FD19D19F788990006B690 /* CoreGraphics.framework */,
+				F48FD19919F7888A0006B690 /* AddressBook.framework */,
+				F48FD19A19F7888A0006B690 /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48FD13B19F786DE0006B690 /* longfeiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48FD15F19F786DE0006B690 /* Build configuration list for PBXNativeTarget "longfeiApp" */;
+			buildPhases = (
+				F48FD13819F786DE0006B690 /* Sources */,
+				F48FD13919F786DE0006B690 /* Frameworks */,
+				F48FD13A19F786DE0006B690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = longfeiApp;
+			productName = longfeiApp;
+			productReference = F48FD13C19F786DE0006B690 /* longfeiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48FD15419F786DE0006B690 /* longfeiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48FD16219F786DE0006B690 /* Build configuration list for PBXNativeTarget "longfeiAppTests" */;
+			buildPhases = (
+				F48FD15119F786DE0006B690 /* Sources */,
+				F48FD15219F786DE0006B690 /* Frameworks */,
+				F48FD15319F786DE0006B690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48FD15719F786DE0006B690 /* PBXTargetDependency */,
+			);
+			name = longfeiAppTests;
+			productName = longfeiAppTests;
+			productReference = F48FD15519F786DE0006B690 /* longfeiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48FD13419F786DD0006B690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = yangcf;
+				TargetAttributes = {
+					F48FD13B19F786DE0006B690 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F48FD15419F786DE0006B690 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F48FD13B19F786DE0006B690;
+					};
+				};
+			};
+			buildConfigurationList = F48FD13719F786DD0006B690 /* Build configuration list for PBXProject "longfeiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48FD13319F786DD0006B690;
+			productRefGroup = F48FD13D19F786DE0006B690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48FD13B19F786DE0006B690 /* longfeiApp */,
+				F48FD15419F786DE0006B690 /* longfeiAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48FD13A19F786DE0006B690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FD19119F7882A0006B690 /* common_button_back_up.png in Resources */,
+				F48FD19219F7882A0006B690 /* common_titlebar.png in Resources */,
+				F48FD19019F7882A0006B690 /* common_button_back_down.png in Resources */,
+				F48FD19819F7882A0006B690 /* MeetContactCell.xib in Resources */,
+				F48FD18D19F7882A0006B690 /* common_button_2word_down@2x.png in Resources */,
+				F48FD18C19F7882A0006B690 /* common_button_2word_down.png in Resources */,
+				F48FD19319F7882A0006B690 /* personalcenter_icon_search_background.png in Resources */,
+				F48FD19619F7882A0006B690 /* MainViewControllor.xib in Resources */,
+				F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */,
+				F48FD18919F7882A0006B690 /* AddressBook_Meet_ViewController.xib in Resources */,
+				F48FD18E19F7882A0006B690 /* common_button_2word_up.png in Resources */,
+				F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */,
+				F48FD14D19F786DE0006B690 /* Images.xcassets in Resources */,
+				F48FD18F19F7882A0006B690 /* common_button_2word_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FD15319F786DE0006B690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48FD13819F786DE0006B690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FD18A19F7882A0006B690 /* pinyin.c in Sources */,
+				F48FD19719F7882A0006B690 /* MeetContactCell.mm in Sources */,
+				F48FD19419F7882A0006B690 /* JSONKit.m in Sources */,
+				F48FD19519F7882A0006B690 /* MainViewControllor.m in Sources */,
+				F48FD18819F7882A0006B690 /* AddressBook_Meet_ViewController.mm in Sources */,
+				F48FD18619F7882A0006B690 /* AddressBookData.mm in Sources */,
+				F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */,
+				F48FD18B19F7882A0006B690 /* POAPinyin.m in Sources */,
+				F48FD18719F7882A0006B690 /* RegexKitLite.m in Sources */,
+				F48FD14219F786DE0006B690 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48FD15119F786DE0006B690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48FD15719F786DE0006B690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48FD13B19F786DE0006B690 /* longfeiApp */;
+			targetProxy = F48FD15619F786DE0006B690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48FD14919F786DE0006B690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48FD14A19F786DE0006B690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48FD14E19F786DE0006B690 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48FD14F19F786DE0006B690 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48FD15D19F786DE0006B690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4BDC7287-3875-4618-AA86-A947FE48A9C9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48FD15E19F786DE0006B690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4BDC7287-3875-4618-AA86-A947FE48A9C9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48FD16019F786DE0006B690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				INFOPLIST_FILE = longfeiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4BDC7287-3875-4618-AA86-A947FE48A9C9";
+			};
+			name = Debug;
+		};
+		F48FD16119F786DE0006B690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				INFOPLIST_FILE = longfeiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4BDC7287-3875-4618-AA86-A947FE48A9C9";
+			};
+			name = Release;
+		};
+		F48FD16319F786DE0006B690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = longfeiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/longfeiApp.app/longfeiApp";
+			};
+			name = Debug;
+		};
+		F48FD16419F786DE0006B690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = longfeiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/longfeiApp.app/longfeiApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48FD13719F786DD0006B690 /* Build configuration list for PBXProject "longfeiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FD15D19F786DE0006B690 /* Debug */,
+				F48FD15E19F786DE0006B690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48FD15F19F786DE0006B690 /* Build configuration list for PBXNativeTarget "longfeiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FD16019F786DE0006B690 /* Debug */,
+				F48FD16119F786DE0006B690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F48FD16219F786DE0006B690 /* Build configuration list for PBXNativeTarget "longfeiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48FD16319F786DE0006B690 /* Debug */,
+				F48FD16419F786DE0006B690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48FD13419F786DD0006B690 /* Project object */;
+}
