@@ -12,31 +12,35 @@
 		F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14919F786DE0006B690 /* Main.storyboard */; };
 		F48FD14D19F786DE0006B690 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14C19F786DE0006B690 /* Images.xcassets */; };
 		F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14E19F786DE0006B690 /* LaunchScreen.xib */; };
-		F48FD18619F7882A0006B690 /* AddressBookData.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16719F7882A0006B690 /* AddressBookData.mm */; };
-		F48FD18719F7882A0006B690 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16A19F7882A0006B690 /* RegexKitLite.m */; };
-		F48FD18819F7882A0006B690 /* AddressBook_Meet_ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */; };
-		F48FD18919F7882A0006B690 /* AddressBook_Meet_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */; };
-		F48FD18A19F7882A0006B690 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17019F7882A0006B690 /* pinyin.c */; };
-		F48FD18B19F7882A0006B690 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17319F7882A0006B690 /* POAPinyin.m */; };
-		F48FD18C19F7882A0006B690 /* common_button_2word_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17519F7882A0006B690 /* common_button_2word_down.png */; };
-		F48FD18D19F7882A0006B690 /* common_button_2word_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */; };
-		F48FD18E19F7882A0006B690 /* common_button_2word_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17719F7882A0006B690 /* common_button_2word_up.png */; };
-		F48FD18F19F7882A0006B690 /* common_button_2word_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */; };
-		F48FD19019F7882A0006B690 /* common_button_back_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17919F7882A0006B690 /* common_button_back_down.png */; };
-		F48FD19119F7882A0006B690 /* common_button_back_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17A19F7882A0006B690 /* common_button_back_up.png */; };
-		F48FD19219F7882A0006B690 /* common_titlebar.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17B19F7882A0006B690 /* common_titlebar.png */; };
-		F48FD19319F7882A0006B690 /* personalcenter_icon_search_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */; };
-		F48FD19419F7882A0006B690 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD17F19F7882A0006B690 /* JSONKit.m */; };
-		F48FD19519F7882A0006B690 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD18119F7882A0006B690 /* MainViewControllor.m */; };
-		F48FD19619F7882A0006B690 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD18219F7882A0006B690 /* MainViewControllor.xib */; };
-		F48FD19719F7882A0006B690 /* MeetContactCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD18419F7882A0006B690 /* MeetContactCell.mm */; };
-		F48FD19819F7882A0006B690 /* MeetContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD18519F7882A0006B690 /* MeetContactCell.xib */; };
 		F48FD19B19F7888A0006B690 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19919F7888A0006B690 /* AddressBook.framework */; };
 		F48FD19C19F7888A0006B690 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19A19F7888A0006B690 /* AddressBookUI.framework */; };
 		F48FD19E19F788990006B690 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19D19F788990006B690 /* CoreGraphics.framework */; };
 		F48FD1A019F788A40006B690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD19F19F788A40006B690 /* Foundation.framework */; };
 		F48FD1A219F788AE0006B690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD1A119F788AE0006B690 /* UIKit.framework */; };
 		F48FD1A419F788C70006B690 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F48FD1A319F788C70006B690 /* libicucore.dylib */; };
+		F48FD1CA19F7A65D0006B690 /* AddressBookData.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1A919F7A65D0006B690 /* AddressBookData.mm */; };
+		F48FD1CB19F7A65D0006B690 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1AC19F7A65D0006B690 /* RegexKitLite.m */; };
+		F48FD1CC19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1AE19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm */; };
+		F48FD1CD19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1AF19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib */; };
+		F48FD1CE19F7A65D0006B690 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1B219F7A65D0006B690 /* pinyin.c */; };
+		F48FD1CF19F7A65D0006B690 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1B519F7A65D0006B690 /* POAPinyin.m */; };
+		F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1B819F7A65D0006B690 /* JSONKit.m */; };
+		F48FD1D119F7A65D0006B690 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */; };
+		F48FD1D219F7A65D0006B690 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */; };
+		F48FD1D319F7A65D0006B690 /* MeetContactCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */; };
+		F48FD1D419F7A65D0006B690 /* MeetContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */; };
+		F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */; };
+		F48FD1D619F7A65D0006B690 /* common_button_2word_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C319F7A65D0006B690 /* common_button_2word_down@2x.png */; };
+		F48FD1D719F7A65D0006B690 /* common_button_2word_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C419F7A65D0006B690 /* common_button_2word_up.png */; };
+		F48FD1D819F7A65D0006B690 /* common_button_2word_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C519F7A65D0006B690 /* common_button_2word_up@2x.png */; };
+		F48FD1D919F7A65D0006B690 /* common_button_back_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C619F7A65D0006B690 /* common_button_back_down.png */; };
+		F48FD1DA19F7A65D0006B690 /* common_button_back_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C719F7A65D0006B690 /* common_button_back_up.png */; };
+		F48FD1DB19F7A65D0006B690 /* common_titlebar.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C819F7A65D0006B690 /* common_titlebar.png */; };
+		F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */; };
+		F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */; };
+		F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */; };
+		F48FD1E419F7A8110006B690 /* buletooth.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */; };
+		F48FD1E519F7A8110006B690 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1E219F7A8110006B690 /* 证书.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,40 +63,44 @@
 		F48FD14C19F786DE0006B690 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F48FD14F19F786DE0006B690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F48FD15519F786DE0006B690 /* longfeiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = longfeiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F48FD16619F7882A0006B690 /* AddressBookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookData.h; sourceTree = "<group>"; };
-		F48FD16719F7882A0006B690 /* AddressBookData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBookData.mm; sourceTree = "<group>"; };
-		F48FD16919F7882A0006B690 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		F48FD16A19F7882A0006B690 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
-		F48FD16B19F7882A0006B690 /* AddressBook_Meet_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook_Meet_ViewController.h; sourceTree = "<group>"; };
-		F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBook_Meet_ViewController.mm; sourceTree = "<group>"; };
-		F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBook_Meet_ViewController.xib; sourceTree = "<group>"; };
-		F48FD16E19F7882A0006B690 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		F48FD17019F7882A0006B690 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
-		F48FD17119F7882A0006B690 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
-		F48FD17219F7882A0006B690 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
-		F48FD17319F7882A0006B690 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
-		F48FD17519F7882A0006B690 /* common_button_2word_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_down.png; sourceTree = "<group>"; };
-		F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_down@2x.png"; sourceTree = "<group>"; };
-		F48FD17719F7882A0006B690 /* common_button_2word_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_up.png; sourceTree = "<group>"; };
-		F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_up@2x.png"; sourceTree = "<group>"; };
-		F48FD17919F7882A0006B690 /* common_button_back_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_down.png; sourceTree = "<group>"; };
-		F48FD17A19F7882A0006B690 /* common_button_back_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_up.png; sourceTree = "<group>"; };
-		F48FD17B19F7882A0006B690 /* common_titlebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_titlebar.png; sourceTree = "<group>"; };
-		F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalcenter_icon_search_background.png; sourceTree = "<group>"; };
-		F48FD17E19F7882A0006B690 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		F48FD17F19F7882A0006B690 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		F48FD18019F7882A0006B690 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
-		F48FD18119F7882A0006B690 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
-		F48FD18219F7882A0006B690 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
-		F48FD18319F7882A0006B690 /* MeetContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetContactCell.h; sourceTree = "<group>"; };
-		F48FD18419F7882A0006B690 /* MeetContactCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeetContactCell.mm; sourceTree = "<group>"; };
-		F48FD18519F7882A0006B690 /* MeetContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeetContactCell.xib; sourceTree = "<group>"; };
 		F48FD19919F7888A0006B690 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		F48FD19A19F7888A0006B690 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		F48FD19D19F788990006B690 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F48FD19F19F788A40006B690 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F48FD1A119F788AE0006B690 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F48FD1A319F788C70006B690 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F48FD1A819F7A65D0006B690 /* AddressBookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookData.h; sourceTree = "<group>"; };
+		F48FD1A919F7A65D0006B690 /* AddressBookData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBookData.mm; sourceTree = "<group>"; };
+		F48FD1AB19F7A65D0006B690 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		F48FD1AC19F7A65D0006B690 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		F48FD1AD19F7A65D0006B690 /* AddressBook_Meet_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook_Meet_ViewController.h; sourceTree = "<group>"; };
+		F48FD1AE19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddressBook_Meet_ViewController.mm; sourceTree = "<group>"; };
+		F48FD1AF19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressBook_Meet_ViewController.xib; sourceTree = "<group>"; };
+		F48FD1B019F7A65D0006B690 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F48FD1B219F7A65D0006B690 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		F48FD1B319F7A65D0006B690 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		F48FD1B419F7A65D0006B690 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		F48FD1B519F7A65D0006B690 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
+		F48FD1B719F7A65D0006B690 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		F48FD1B819F7A65D0006B690 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		F48FD1B919F7A65D0006B690 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
+		F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
+		F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
+		F48FD1BC19F7A65D0006B690 /* MeetContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetContactCell.h; sourceTree = "<group>"; };
+		F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeetContactCell.mm; sourceTree = "<group>"; };
+		F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeetContactCell.xib; sourceTree = "<group>"; };
+		F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_down.png; sourceTree = "<group>"; };
+		F48FD1C319F7A65D0006B690 /* common_button_2word_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_down@2x.png"; sourceTree = "<group>"; };
+		F48FD1C419F7A65D0006B690 /* common_button_2word_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_2word_up.png; sourceTree = "<group>"; };
+		F48FD1C519F7A65D0006B690 /* common_button_2word_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_button_2word_up@2x.png"; sourceTree = "<group>"; };
+		F48FD1C619F7A65D0006B690 /* common_button_back_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_down.png; sourceTree = "<group>"; };
+		F48FD1C719F7A65D0006B690 /* common_button_back_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_button_back_up.png; sourceTree = "<group>"; };
+		F48FD1C819F7A65D0006B690 /* common_titlebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_titlebar.png; sourceTree = "<group>"; };
+		F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalcenter_icon_search_background.png; sourceTree = "<group>"; };
+		F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "git命令总结.rtfd"; sourceTree = "<group>"; };
+		F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "物业公司微信平台功能需求.docx"; sourceTree = "<group>"; };
+		F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = buletooth.mobileprovision; sourceTree = "<group>"; };
+		F48FD1E219F7A8110006B690 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,21 +147,10 @@
 		F48FD13E19F786DE0006B690 /* longfeiApp */ = {
 			isa = PBXGroup;
 			children = (
+				F48FD1A619F7A65D0006B690 /* developercode */,
+				F48FD1BF19F7A65D0006B690 /* RemarksFile */,
+				F48FD1C019F7A65D0006B690 /* Resource */,
 				F48FD1A519F799350006B690 /* Frameworks */,
-				F48FD16519F7882A0006B690 /* AddressBook */,
-				F48FD16B19F7882A0006B690 /* AddressBook_Meet_ViewController.h */,
-				F48FD16C19F7882A0006B690 /* AddressBook_Meet_ViewController.mm */,
-				F48FD16D19F7882A0006B690 /* AddressBook_Meet_ViewController.xib */,
-				F48FD16E19F7882A0006B690 /* Common.h */,
-				F48FD16F19F7882A0006B690 /* friendListSearchHelp */,
-				F48FD17419F7882A0006B690 /* imageResource */,
-				F48FD17D19F7882A0006B690 /* JSONKit */,
-				F48FD18019F7882A0006B690 /* MainViewControllor.h */,
-				F48FD18119F7882A0006B690 /* MainViewControllor.m */,
-				F48FD18219F7882A0006B690 /* MainViewControllor.xib */,
-				F48FD18319F7882A0006B690 /* MeetContactCell.h */,
-				F48FD18419F7882A0006B690 /* MeetContactCell.mm */,
-				F48FD18519F7882A0006B690 /* MeetContactCell.xib */,
 				F48FD14319F786DE0006B690 /* AppDelegate.h */,
 				F48FD14419F786DE0006B690 /* AppDelegate.m */,
 				F48FD14919F786DE0006B690 /* Main.storyboard */,
@@ -173,60 +170,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F48FD16519F7882A0006B690 /* AddressBook */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD16619F7882A0006B690 /* AddressBookData.h */,
-				F48FD16719F7882A0006B690 /* AddressBookData.mm */,
-				F48FD16819F7882A0006B690 /* RegexKitLite-4.0 */,
-			);
-			path = AddressBook;
-			sourceTree = "<group>";
-		};
-		F48FD16819F7882A0006B690 /* RegexKitLite-4.0 */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD16919F7882A0006B690 /* RegexKitLite.h */,
-				F48FD16A19F7882A0006B690 /* RegexKitLite.m */,
-			);
-			path = "RegexKitLite-4.0";
-			sourceTree = "<group>";
-		};
-		F48FD16F19F7882A0006B690 /* friendListSearchHelp */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD17019F7882A0006B690 /* pinyin.c */,
-				F48FD17119F7882A0006B690 /* pinyin.h */,
-				F48FD17219F7882A0006B690 /* POAPinyin.h */,
-				F48FD17319F7882A0006B690 /* POAPinyin.m */,
-			);
-			path = friendListSearchHelp;
-			sourceTree = "<group>";
-		};
-		F48FD17419F7882A0006B690 /* imageResource */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD17519F7882A0006B690 /* common_button_2word_down.png */,
-				F48FD17619F7882A0006B690 /* common_button_2word_down@2x.png */,
-				F48FD17719F7882A0006B690 /* common_button_2word_up.png */,
-				F48FD17819F7882A0006B690 /* common_button_2word_up@2x.png */,
-				F48FD17919F7882A0006B690 /* common_button_back_down.png */,
-				F48FD17A19F7882A0006B690 /* common_button_back_up.png */,
-				F48FD17B19F7882A0006B690 /* common_titlebar.png */,
-				F48FD17C19F7882A0006B690 /* personalcenter_icon_search_background.png */,
-			);
-			path = imageResource;
-			sourceTree = "<group>";
-		};
-		F48FD17D19F7882A0006B690 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD17E19F7882A0006B690 /* JSONKit.h */,
-				F48FD17F19F7882A0006B690 /* JSONKit.m */,
-			);
-			path = JSONKit;
-			sourceTree = "<group>";
-		};
 		F48FD1A519F799350006B690 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +182,107 @@
 			);
 			name = Frameworks;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F48FD1A619F7A65D0006B690 /* developercode */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1A719F7A65D0006B690 /* AddressBook */,
+				F48FD1AD19F7A65D0006B690 /* AddressBook_Meet_ViewController.h */,
+				F48FD1AE19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm */,
+				F48FD1AF19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib */,
+				F48FD1B019F7A65D0006B690 /* Common.h */,
+				F48FD1B119F7A65D0006B690 /* friendListSearchHelp */,
+				F48FD1B619F7A65D0006B690 /* JSONKit */,
+				F48FD1B919F7A65D0006B690 /* MainViewControllor.h */,
+				F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */,
+				F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */,
+				F48FD1BC19F7A65D0006B690 /* MeetContactCell.h */,
+				F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */,
+				F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */,
+			);
+			path = developercode;
+			sourceTree = "<group>";
+		};
+		F48FD1A719F7A65D0006B690 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1A819F7A65D0006B690 /* AddressBookData.h */,
+				F48FD1A919F7A65D0006B690 /* AddressBookData.mm */,
+				F48FD1AA19F7A65D0006B690 /* RegexKitLite-4.0 */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		F48FD1AA19F7A65D0006B690 /* RegexKitLite-4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1AB19F7A65D0006B690 /* RegexKitLite.h */,
+				F48FD1AC19F7A65D0006B690 /* RegexKitLite.m */,
+			);
+			path = "RegexKitLite-4.0";
+			sourceTree = "<group>";
+		};
+		F48FD1B119F7A65D0006B690 /* friendListSearchHelp */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1B219F7A65D0006B690 /* pinyin.c */,
+				F48FD1B319F7A65D0006B690 /* pinyin.h */,
+				F48FD1B419F7A65D0006B690 /* POAPinyin.h */,
+				F48FD1B519F7A65D0006B690 /* POAPinyin.m */,
+			);
+			path = friendListSearchHelp;
+			sourceTree = "<group>";
+		};
+		F48FD1B619F7A65D0006B690 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1B719F7A65D0006B690 /* JSONKit.h */,
+				F48FD1B819F7A65D0006B690 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		F48FD1BF19F7A65D0006B690 /* RemarksFile */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */,
+				F48FD1E019F7A8110006B690 /* mapbar */,
+				F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */,
+			);
+			path = RemarksFile;
+			sourceTree = "<group>";
+		};
+		F48FD1C019F7A65D0006B690 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1C119F7A65D0006B690 /* imageResource */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F48FD1C119F7A65D0006B690 /* imageResource */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */,
+				F48FD1C319F7A65D0006B690 /* common_button_2word_down@2x.png */,
+				F48FD1C419F7A65D0006B690 /* common_button_2word_up.png */,
+				F48FD1C519F7A65D0006B690 /* common_button_2word_up@2x.png */,
+				F48FD1C619F7A65D0006B690 /* common_button_back_down.png */,
+				F48FD1C719F7A65D0006B690 /* common_button_back_up.png */,
+				F48FD1C819F7A65D0006B690 /* common_titlebar.png */,
+				F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */,
+			);
+			path = imageResource;
+			sourceTree = "<group>";
+		};
+		F48FD1E019F7A8110006B690 /* mapbar */ = {
+			isa = PBXGroup;
+			children = (
+				F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */,
+				F48FD1E219F7A8110006B690 /* 证书.p12 */,
+			);
+			path = mapbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,20 +365,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48FD19119F7882A0006B690 /* common_button_back_up.png in Resources */,
-				F48FD19219F7882A0006B690 /* common_titlebar.png in Resources */,
-				F48FD19019F7882A0006B690 /* common_button_back_down.png in Resources */,
-				F48FD19819F7882A0006B690 /* MeetContactCell.xib in Resources */,
-				F48FD18D19F7882A0006B690 /* common_button_2word_down@2x.png in Resources */,
-				F48FD18C19F7882A0006B690 /* common_button_2word_down.png in Resources */,
-				F48FD19319F7882A0006B690 /* personalcenter_icon_search_background.png in Resources */,
-				F48FD19619F7882A0006B690 /* MainViewControllor.xib in Resources */,
+				F48FD1D219F7A65D0006B690 /* MainViewControllor.xib in Resources */,
+				F48FD1D919F7A65D0006B690 /* common_button_back_down.png in Resources */,
+				F48FD1D419F7A65D0006B690 /* MeetContactCell.xib in Resources */,
+				F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */,
+				F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */,
 				F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */,
-				F48FD18919F7882A0006B690 /* AddressBook_Meet_ViewController.xib in Resources */,
-				F48FD18E19F7882A0006B690 /* common_button_2word_up.png in Resources */,
+				F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */,
+				F48FD1E419F7A8110006B690 /* buletooth.mobileprovision in Resources */,
+				F48FD1D619F7A65D0006B690 /* common_button_2word_down@2x.png in Resources */,
+				F48FD1D819F7A65D0006B690 /* common_button_2word_up@2x.png in Resources */,
+				F48FD1E519F7A8110006B690 /* 证书.p12 in Resources */,
+				F48FD1DB19F7A65D0006B690 /* common_titlebar.png in Resources */,
+				F48FD1CD19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib in Resources */,
+				F48FD1DA19F7A65D0006B690 /* common_button_back_up.png in Resources */,
+				F48FD1D719F7A65D0006B690 /* common_button_2word_up.png in Resources */,
 				F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */,
+				F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */,
 				F48FD14D19F786DE0006B690 /* Images.xcassets in Resources */,
-				F48FD18F19F7882A0006B690 /* common_button_2word_up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,16 +400,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48FD18A19F7882A0006B690 /* pinyin.c in Sources */,
-				F48FD19719F7882A0006B690 /* MeetContactCell.mm in Sources */,
-				F48FD19419F7882A0006B690 /* JSONKit.m in Sources */,
-				F48FD19519F7882A0006B690 /* MainViewControllor.m in Sources */,
-				F48FD18819F7882A0006B690 /* AddressBook_Meet_ViewController.mm in Sources */,
-				F48FD18619F7882A0006B690 /* AddressBookData.mm in Sources */,
+				F48FD1CF19F7A65D0006B690 /* POAPinyin.m in Sources */,
+				F48FD1CE19F7A65D0006B690 /* pinyin.c in Sources */,
 				F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */,
-				F48FD18B19F7882A0006B690 /* POAPinyin.m in Sources */,
-				F48FD18719F7882A0006B690 /* RegexKitLite.m in Sources */,
+				F48FD1CA19F7A65D0006B690 /* AddressBookData.mm in Sources */,
+				F48FD1CB19F7A65D0006B690 /* RegexKitLite.m in Sources */,
+				F48FD1CC19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm in Sources */,
+				F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */,
+				F48FD1D319F7A65D0006B690 /* MeetContactCell.mm in Sources */,
 				F48FD14219F786DE0006B690 /* main.m in Sources */,
+				F48FD1D119F7A65D0006B690 /* MainViewControllor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +613,7 @@
 				F48FD16119F786DE0006B690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F48FD16219F786DE0006B690 /* Build configuration list for PBXNativeTarget "longfeiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +622,7 @@
 				F48FD16419F786DE0006B690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

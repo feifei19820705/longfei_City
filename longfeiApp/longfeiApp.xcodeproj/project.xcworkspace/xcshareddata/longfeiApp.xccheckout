@@ -10,14 +10,14 @@
 	<string>longfeiApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>19502F28064A4363F15F68C80AD44A6A542EB246</key>
+		<key>4229C516F54922E7FDCED6B30230753BA5DD641C</key>
 		<string>https://github.com/feifei19820705/longfei_City.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>longfeiApp/longfeiApp/longfeiApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>19502F28064A4363F15F68C80AD44A6A542EB246</key>
+		<key>4229C516F54922E7FDCED6B30230753BA5DD641C</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>19502F28064A4363F15F68C80AD44A6A542EB246</string>
+	<string>4229C516F54922E7FDCED6B30230753BA5DD641C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>19502F28064A4363F15F68C80AD44A6A542EB246</string>
+			<string>4229C516F54922E7FDCED6B30230753BA5DD641C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>longfei_City</string>
 		</dict>
