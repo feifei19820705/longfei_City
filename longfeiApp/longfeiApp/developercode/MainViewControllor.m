@@ -11,8 +11,12 @@
 #import "AddressBook_Meet_ViewController.h"
 #import "AppDelegate.h"
 #import "Common.h"
+#import "NAmeview.h"
 
 @interface MainViewControllor ()
+{
+    NAmeview* pNAmevie;
+}
 
 @end
 
@@ -43,6 +47,7 @@
 
 -(void)dealloc
 {
+    [pNAmevie release];
     [pTabBar release];
     [pShowPhoneTextField release];
     [pPhoneLabel release];
@@ -60,20 +65,22 @@
     [self.view setBackgroundColor:[UIColor blackColor]];
     _accessGranted = NO;
     
+    pNAmevie = [[NAmeview alloc] init];
+    pNAmevie.frame = CGRectMake(0, 20 ,UIScreen_W, UIScreen_H - 50);
+    [self.view addSubview:pNAmevie];
+    [pNAmevie setHidden:YES];
+    
+    
     pTabBar = [[UITabBar alloc] init];
     pTabBar.frame = CGRectMake(0, UIScreen_H - 50, UIScreen_W, 50);
-    
     pTabBar.delegate = (id)self;
-    
     UITabBarItem *tabBarItem1 = [[UITabBarItem alloc] initWithTitle:@"手机号" image:nil tag:100];
     UITabBarItem * tabBarItem2 = [[UITabBarItem alloc] initWithTitle:@"通讯录" image:nil tag:101];
-    UITabBarItem * tabBarItem3 = [[UITabBarItem alloc] initWithTitle:@"自定义一" image:nil tag:102];
+    UITabBarItem * tabBarItem3 = [[UITabBarItem alloc] initWithTitle:@"密码设置" image:nil tag:102];
     UITabBarItem * tabBarItem4 = [[UITabBarItem alloc] initWithTitle:@"自定义二" image:nil tag:103];
     NSArray *tabBarItemArray = [[NSArray alloc] initWithObjects: tabBarItem1, tabBarItem2, tabBarItem3, tabBarItem4,nil];
     [pTabBar setItems: tabBarItemArray];
     [tabBarItemArray release];
-    
-    
     pTabBar.barStyle = UIBarStyleBlackOpaque;
     
     
@@ -224,21 +231,27 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
 {
     //NSLog(@"--------- %@",NSStringFromSelector(_cmd));
+    [pNAmevie setHidden:YES];
     if (item.tag == 100)
     {
         [self ShowUsersPhoneInfo:YES];
     }
-    else
+    else if(item.tag == 101)
     {
         [self ShowUsersPhoneInfo:NO];
         AddressBook_Meet_ViewController* pAddressView = [[AddressBook_Meet_ViewController alloc] initWithNibName:@"AddressBook_Meet_ViewController" bundle:nil];
-        //[self.navigationController pushViewController:pAddressView animated:YES];
-        //[[self navigationController] pushViewController:pAddressView animated:YES];
-        //[self presentModalViewController:pAddressView animated:YES];
         [self presentViewController:pAddressView animated:YES completion:^{
             
         }];
         [pAddressView release];
+    }
+    else if (item.tag == 102)
+    {
+         [pNAmevie setHidden:NO];
+    }
+    else if (item.tag == 103)
+    {
+        
     }
 }
 

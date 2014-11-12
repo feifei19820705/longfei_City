@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42227B51A13521E00E8FAD5 /* NAmeview.m in Sources */ = {isa = PBXBuildFile; fileRef = F42227B41A13521E00E8FAD5 /* NAmeview.m */; };
+		F42227B81A13522C00E8FAD5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F42227B61A13522C00E8FAD5 /* 5.png */; };
+		F42227B91A13522C00E8FAD5 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = F42227B71A13522C00E8FAD5 /* 21.png */; };
+		F42227E41A13523A00E8FAD5 /* 11111122222333333.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */; };
+		F42227E51A13523A00E8FAD5 /* 222222233333334445566.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F42227BB1A13523A00E8FAD5 /* 222222233333334445566.rtf */; };
+		F42227F81A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png in Resources */ = {isa = PBXBuildFile; fileRef = F42227DA1A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png */; };
+		F42227F91A13523A00E8FAD5 /* 图吧工程克隆步骤.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F42227DB1A13523A00E8FAD5 /* 图吧工程克隆步骤.rtf */; };
+		F42227FA1A13523A00E8FAD5 /* buletooth.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F42227DD1A13523A00E8FAD5 /* buletooth.mobileprovision */; };
+		F42227FB1A13523A00E8FAD5 /* comcyrilbantonixiaomi-3.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F42227DF1A13523A00E8FAD5 /* comcyrilbantonixiaomi-3.mobileprovision */; };
+		F42227FC1A13523A00E8FAD5 /* ixiaomi_distribution-5.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F42227E01A13523A00E8FAD5 /* ixiaomi_distribution-5.mobileprovision */; };
+		F42227FD1A13523A00E8FAD5 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E11A13523A00E8FAD5 /* 证书.p12 */; };
+		F42227FE1A13523A00E8FAD5 /* 证书dis.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E21A13523A00E8FAD5 /* 证书dis.p12 */; };
+		F42227FF1A13523A00E8FAD5 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E31A13523A00E8FAD5 /* 证书.p12 */; };
 		F48FD14219F786DE0006B690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14119F786DE0006B690 /* main.m */; };
 		F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14419F786DE0006B690 /* AppDelegate.m */; };
 		F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14919F786DE0006B690 /* Main.storyboard */; };
@@ -38,8 +51,6 @@
 		F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */; };
 		F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */; };
 		F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */; };
-		F48FD1E419F7A8110006B690 /* buletooth.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */; };
-		F48FD1E519F7A8110006B690 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1E219F7A8110006B690 /* 证书.p12 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F42227B31A13521E00E8FAD5 /* NAmeview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAmeview.h; sourceTree = "<group>"; };
+		F42227B41A13521E00E8FAD5 /* NAmeview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAmeview.m; sourceTree = "<group>"; };
+		F42227B61A13522C00E8FAD5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F42227B71A13522C00E8FAD5 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 11111122222333333.rtf; sourceTree = "<group>"; };
+		F42227BB1A13523A00E8FAD5 /* 222222233333334445566.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 222222233333334445566.rtf; sourceTree = "<group>"; };
+		F42227DA1A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-10-16 上午9.46.48.png"; sourceTree = "<group>"; };
+		F42227DB1A13523A00E8FAD5 /* 图吧工程克隆步骤.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "图吧工程克隆步骤.rtf"; sourceTree = "<group>"; };
+		F42227DD1A13523A00E8FAD5 /* buletooth.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = buletooth.mobileprovision; sourceTree = "<group>"; };
+		F42227DF1A13523A00E8FAD5 /* comcyrilbantonixiaomi-3.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "comcyrilbantonixiaomi-3.mobileprovision"; sourceTree = "<group>"; };
+		F42227E01A13523A00E8FAD5 /* ixiaomi_distribution-5.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ixiaomi_distribution-5.mobileprovision"; sourceTree = "<group>"; };
+		F42227E11A13523A00E8FAD5 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
+		F42227E21A13523A00E8FAD5 /* 证书dis.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书dis.p12"; sourceTree = "<group>"; };
+		F42227E31A13523A00E8FAD5 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
 		F48FD13C19F786DE0006B690 /* longfeiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longfeiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48FD14019F786DE0006B690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F48FD14119F786DE0006B690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,8 +122,6 @@
 		F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalcenter_icon_search_background.png; sourceTree = "<group>"; };
 		F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "git命令总结.rtfd"; sourceTree = "<group>"; };
 		F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "物业公司微信平台功能需求.docx"; sourceTree = "<group>"; };
-		F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = buletooth.mobileprovision; sourceTree = "<group>"; };
-		F48FD1E219F7A8110006B690 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +148,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F42227B21A13521E00E8FAD5 /* PasswordSetView */ = {
+			isa = PBXGroup;
+			children = (
+				F42227B31A13521E00E8FAD5 /* NAmeview.h */,
+				F42227B41A13521E00E8FAD5 /* NAmeview.m */,
+			);
+			path = PasswordSetView;
+			sourceTree = "<group>";
+		};
+		F42227DC1A13523A00E8FAD5 /* bar证书 */ = {
+			isa = PBXGroup;
+			children = (
+				F42227DD1A13523A00E8FAD5 /* buletooth.mobileprovision */,
+				F42227DE1A13523A00E8FAD5 /* 证书 */,
+				F42227E31A13523A00E8FAD5 /* 证书.p12 */,
+			);
+			path = "bar证书";
+			sourceTree = "<group>";
+		};
+		F42227DE1A13523A00E8FAD5 /* 证书 */ = {
+			isa = PBXGroup;
+			children = (
+				F42227DF1A13523A00E8FAD5 /* comcyrilbantonixiaomi-3.mobileprovision */,
+				F42227E01A13523A00E8FAD5 /* ixiaomi_distribution-5.mobileprovision */,
+				F42227E11A13523A00E8FAD5 /* 证书.p12 */,
+				F42227E21A13523A00E8FAD5 /* 证书dis.p12 */,
+			);
+			path = "证书";
+			sourceTree = "<group>";
+		};
 		F48FD13319F786DD0006B690 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +238,7 @@
 		F48FD1A619F7A65D0006B690 /* developercode */ = {
 			isa = PBXGroup;
 			children = (
+				F42227B21A13521E00E8FAD5 /* PasswordSetView */,
 				F48FD1A719F7A65D0006B690 /* AddressBook */,
 				F48FD1AD19F7A65D0006B690 /* AddressBook_Meet_ViewController.h */,
 				F48FD1AE19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm */,
@@ -243,8 +297,12 @@
 		F48FD1BF19F7A65D0006B690 /* RemarksFile */ = {
 			isa = PBXGroup;
 			children = (
+				F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */,
+				F42227BB1A13523A00E8FAD5 /* 222222233333334445566.rtf */,
+				F42227DA1A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png */,
+				F42227DB1A13523A00E8FAD5 /* 图吧工程克隆步骤.rtf */,
+				F42227DC1A13523A00E8FAD5 /* bar证书 */,
 				F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */,
-				F48FD1E019F7A8110006B690 /* mapbar */,
 				F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */,
 			);
 			path = RemarksFile;
@@ -261,6 +319,8 @@
 		F48FD1C119F7A65D0006B690 /* imageResource */ = {
 			isa = PBXGroup;
 			children = (
+				F42227B61A13522C00E8FAD5 /* 5.png */,
+				F42227B71A13522C00E8FAD5 /* 21.png */,
 				F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */,
 				F48FD1C319F7A65D0006B690 /* common_button_2word_down@2x.png */,
 				F48FD1C419F7A65D0006B690 /* common_button_2word_up.png */,
@@ -271,15 +331,6 @@
 				F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */,
 			);
 			path = imageResource;
-			sourceTree = "<group>";
-		};
-		F48FD1E019F7A8110006B690 /* mapbar */ = {
-			isa = PBXGroup;
-			children = (
-				F48FD1E119F7A8110006B690 /* buletooth.mobileprovision */,
-				F48FD1E219F7A8110006B690 /* 证书.p12 */,
-			);
-			path = mapbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,22 +413,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42227FC1A13523A00E8FAD5 /* ixiaomi_distribution-5.mobileprovision in Resources */,
 				F48FD1D919F7A65D0006B690 /* common_button_back_down.png in Resources */,
+				F42227E51A13523A00E8FAD5 /* 222222233333334445566.rtf in Resources */,
+				F42227F81A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png in Resources */,
 				F48FD1D419F7A65D0006B690 /* MeetContactCell.xib in Resources */,
+				F42227F91A13523A00E8FAD5 /* 图吧工程克隆步骤.rtf in Resources */,
+				F42227FD1A13523A00E8FAD5 /* 证书.p12 in Resources */,
 				F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */,
 				F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */,
 				F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */,
 				F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */,
-				F48FD1E419F7A8110006B690 /* buletooth.mobileprovision in Resources */,
 				F48FD1D619F7A65D0006B690 /* common_button_2word_down@2x.png in Resources */,
 				F48FD1D819F7A65D0006B690 /* common_button_2word_up@2x.png in Resources */,
-				F48FD1E519F7A8110006B690 /* 证书.p12 in Resources */,
+				F42227FE1A13523A00E8FAD5 /* 证书dis.p12 in Resources */,
+				F42227FB1A13523A00E8FAD5 /* comcyrilbantonixiaomi-3.mobileprovision in Resources */,
 				F48FD1DB19F7A65D0006B690 /* common_titlebar.png in Resources */,
 				F48FD1CD19F7A65D0006B690 /* AddressBook_Meet_ViewController.xib in Resources */,
 				F48FD1DA19F7A65D0006B690 /* common_button_back_up.png in Resources */,
+				F42227E41A13523A00E8FAD5 /* 11111122222333333.rtf in Resources */,
 				F48FD1D719F7A65D0006B690 /* common_button_2word_up.png in Resources */,
 				F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */,
+				F42227FF1A13523A00E8FAD5 /* 证书.p12 in Resources */,
+				F42227B91A13522C00E8FAD5 /* 21.png in Resources */,
+				F42227B81A13522C00E8FAD5 /* 5.png in Resources */,
 				F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */,
+				F42227FA1A13523A00E8FAD5 /* buletooth.mobileprovision in Resources */,
 				F48FD14D19F786DE0006B690 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +461,7 @@
 				F48FD1CE19F7A65D0006B690 /* pinyin.c in Sources */,
 				F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */,
 				F48FD1CA19F7A65D0006B690 /* AddressBookData.mm in Sources */,
+				F42227B51A13521E00E8FAD5 /* NAmeview.m in Sources */,
 				F48FD1CB19F7A65D0006B690 /* RegexKitLite.m in Sources */,
 				F48FD1CC19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm in Sources */,
 				F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */,

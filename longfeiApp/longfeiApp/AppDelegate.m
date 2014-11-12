@@ -24,10 +24,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
-    {
-        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    }
+//    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+//    {
+//        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+//    }
     
     [AddressBookData AddressBookCreateAndGetData];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
