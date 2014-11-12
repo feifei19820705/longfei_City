@@ -20,6 +20,7 @@
 		F42227FD1A13523A00E8FAD5 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E11A13523A00E8FAD5 /* 证书.p12 */; };
 		F42227FE1A13523A00E8FAD5 /* 证书dis.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E21A13523A00E8FAD5 /* 证书dis.p12 */; };
 		F42227FF1A13523A00E8FAD5 /* 证书.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F42227E31A13523A00E8FAD5 /* 证书.p12 */; };
+		F422280F1A136C6000E8FAD5 /* sky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F422280E1A136C6000E8FAD5 /* sky@2x.png */; };
 		F48FD14219F786DE0006B690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14119F786DE0006B690 /* main.m */; };
 		F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14419F786DE0006B690 /* AppDelegate.m */; };
 		F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14919F786DE0006B690 /* Main.storyboard */; };
@@ -78,6 +79,7 @@
 		F42227E11A13523A00E8FAD5 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
 		F42227E21A13523A00E8FAD5 /* 证书dis.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书dis.p12"; sourceTree = "<group>"; };
 		F42227E31A13523A00E8FAD5 /* 证书.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书.p12"; sourceTree = "<group>"; };
+		F422280E1A136C6000E8FAD5 /* sky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky@2x.png"; sourceTree = "<group>"; };
 		F48FD13C19F786DE0006B690 /* longfeiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longfeiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48FD14019F786DE0006B690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F48FD14119F786DE0006B690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 		F48FD1C119F7A65D0006B690 /* imageResource */ = {
 			isa = PBXGroup;
 			children = (
+				F422280E1A136C6000E8FAD5 /* sky@2x.png */,
 				F42227B61A13522C00E8FAD5 /* 5.png */,
 				F42227B71A13522C00E8FAD5 /* 21.png */,
 				F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */,
@@ -423,6 +426,7 @@
 				F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */,
 				F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */,
 				F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */,
+				F422280F1A136C6000E8FAD5 /* sky@2x.png in Resources */,
 				F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */,
 				F48FD1D619F7A65D0006B690 /* common_button_2word_down@2x.png in Resources */,
 				F48FD1D819F7A65D0006B690 /* common_button_2word_up@2x.png in Resources */,

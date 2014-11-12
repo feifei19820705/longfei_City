@@ -7,6 +7,7 @@
 //
 
 #import "NAmeview.h"
+#import "Common.h"
 
 @implementation NAmeview
 
@@ -16,13 +17,16 @@
     if (self)
     {
         // Initialization code
-        [self setBackgroundColor:[UIColor yellowColor]];
+//        [self setBackgroundColor:[UIColor yellowColor]];
+        
+        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"sky@2x.png"]];
+        
         mutalearray = [[NSMutableArray array]retain];
         mutag = [[NSMutableArray array]retain ];
         resulttext = [[UITextField alloc]initWithFrame:CGRectMake(20, 30, 200, 40)];
         
         [resulttext resignFirstResponder];
-//        resulttext.textColor = [UIColor whiteColor];
+        resulttext.textColor = [UIColor whiteColor];
         [self  addSubview:resulttext];
         
         
@@ -43,40 +47,7 @@
     }
     return self;
 }
-    
-//-(id)initWithCoder:(NSCoder *)aDecoder{
-//
-//    self = [super initWithCoder:aDecoder];
-//    if (self) {
-//        
-//
-//        mutalearray = [[NSMutableArray array]retain];
-//        mutag = [[NSMutableArray array]retain ];
-//        resulttext = [[UITextField alloc]initWithFrame:CGRectMake(20, 30, 200, 40)];
-//        
-//        [resulttext resignFirstResponder];
-//        [self  addSubview:resulttext];
-//        
-//       
-//        for (int i=0; i<9; i++) {
-//            UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-//            [button setFrame:CGRectMake(26+(i%3)*98, 126+(i/3)*98, 72, 72)];
-//            
-//            [button setBackgroundColor:[UIColor whiteColor]];
-//            [button setBackgroundImage:[UIImage imageNamed:@"21"] forState:UIControlStateNormal];
-//            [button setBackgroundImage:[UIImage imageNamed:@"5"] forState:UIControlStateSelected];
-//           button.userInteractionEnabled= NO;//用户交互
-//            button.alpha = 0.9;
-//            button.tag = i+10000;
-//            [self addSubview:button];
-//            [mutalearray addObject:button];
-//        
-//        }
-//    }
-//
-//    return self;
-//   
-//}
+
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
 
     CGPoint point= [[touches anyObject]locationInView:self];
@@ -167,13 +138,6 @@
 resulttext.text = string;
 
 }
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
+
 
 @end

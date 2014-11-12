@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NAmeview : UIView<NSCoding>{
+@interface NAmeview : UIView{
 
     NSMutableArray *mutalearray;
      NSMutableArray *mutag;

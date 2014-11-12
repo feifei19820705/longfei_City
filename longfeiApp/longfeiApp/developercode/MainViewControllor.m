@@ -58,6 +58,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImageView* pBgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sky@2x.png"]];
+    pBgImageView.frame = CGRectMake(0, 0, UIScreen_W, UIScreen_H);
+    [self.view addSubview:pBgImageView];
+    [pBgImageView release];
+    
     [self InitUserPhoneInfo];
     [self ShowUsersPhoneInfo:YES];
     
