@@ -19,26 +19,35 @@
 @synthesize pMainViewControllor;
 @synthesize _pSaveDataString;
 @synthesize nPhoneType = _nPhoneType;
+@synthesize pAppNavigationController = _pAppNavigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+    {
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    }
     
     [AddressBookData AddressBookCreateAndGetData];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor clearColor];
     
-    pMainViewControllor = [[MainViewControllor alloc] initWithNibName:@"MainViewControllor" bundle:nil];
-    
-    
-    if (IOS_Greater_Or_Equal(__IOS_6_0))
-        self.window.rootViewController = pMainViewControllor;
-    else
-        [self.window addSubview:pMainViewControllor.view];
-    
+    pMainViewControllor = [[MainViewControllor alloc] init];
+    UINavigationController* pNaviController = [[UINavigationController alloc] initWithRootViewController:pMainViewControllor];
+    self.pAppNavigationController = pNaviController;
+    self.window.rootViewController = self.pAppNavigationController;
+    [pNaviController release];
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+-(void)dealloc
+{
+    [pMainViewControllor release];
+    [super dealloc];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

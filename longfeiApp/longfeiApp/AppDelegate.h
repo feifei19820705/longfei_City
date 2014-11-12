@@ -27,6 +27,7 @@ enum PhoneType     //电话类型
 @property (strong, nonatomic) NSString* _pSaveDataString;
 @property (nonatomic) enum PhoneType nPhoneType;      //电话类型
 @property (nonatomic,retain) MainViewControllor* pMainViewControllor;
+@property (nonatomic,retain) UINavigationController* pAppNavigationController;
 
 @end
 

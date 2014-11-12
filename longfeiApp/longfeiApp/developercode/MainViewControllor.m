@@ -10,10 +10,9 @@
 #import "RegexKitLite.h"
 #import "AddressBook_Meet_ViewController.h"
 #import "AppDelegate.h"
+#import "Common.h"
 
 @interface MainViewControllor ()
-
--(void)setStatusBar;
 
 @end
 
@@ -51,23 +50,18 @@
     [super dealloc];
 }
 
--(void)setStatusBar
-{
-//    [self setStatusBarStyle:UIStatusBarStyleLightContent];
-//    AppDelegate* app = (AppDelegate*)[UIApplication sharedApplication].delegate;
-//    UIColor* color = [UIColor colorWithWhite:0.0 alpha:0.6];
-//    [app.naviController setStatusBarBackgroundcolor:color];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self InitUserPhoneInfo];
     [self ShowUsersPhoneInfo:YES];
+    
+    [self.navigationController.navigationBar setHidden:YES];
+    [self.view setBackgroundColor:[UIColor blackColor]];
     _accessGranted = NO;
     
     pTabBar = [[UITabBar alloc] init];
-    pTabBar.frame = CGRectMake(0, self.view.frame.size.height - 50, 320, 50);
+    pTabBar.frame = CGRectMake(0, UIScreen_H - 50, UIScreen_W, 50);
     
     pTabBar.delegate = (id)self;
     

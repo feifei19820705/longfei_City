@@ -26,7 +26,6 @@
 		F48FD1CF19F7A65D0006B690 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1B519F7A65D0006B690 /* POAPinyin.m */; };
 		F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1B819F7A65D0006B690 /* JSONKit.m */; };
 		F48FD1D119F7A65D0006B690 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */; };
-		F48FD1D219F7A65D0006B690 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */; };
 		F48FD1D319F7A65D0006B690 /* MeetContactCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */; };
 		F48FD1D419F7A65D0006B690 /* MeetContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */; };
 		F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1C219F7A65D0006B690 /* common_button_2word_down.png */; };
@@ -85,7 +84,6 @@
 		F48FD1B819F7A65D0006B690 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		F48FD1B919F7A65D0006B690 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
 		F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
-		F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
 		F48FD1BC19F7A65D0006B690 /* MeetContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetContactCell.h; sourceTree = "<group>"; };
 		F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeetContactCell.mm; sourceTree = "<group>"; };
 		F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeetContactCell.xib; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 				F48FD1B619F7A65D0006B690 /* JSONKit */,
 				F48FD1B919F7A65D0006B690 /* MainViewControllor.h */,
 				F48FD1BA19F7A65D0006B690 /* MainViewControllor.m */,
-				F48FD1BB19F7A65D0006B690 /* MainViewControllor.xib */,
 				F48FD1BC19F7A65D0006B690 /* MeetContactCell.h */,
 				F48FD1BD19F7A65D0006B690 /* MeetContactCell.mm */,
 				F48FD1BE19F7A65D0006B690 /* MeetContactCell.xib */,
@@ -365,7 +362,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48FD1D219F7A65D0006B690 /* MainViewControllor.xib in Resources */,
 				F48FD1D919F7A65D0006B690 /* common_button_back_down.png in Resources */,
 				F48FD1D419F7A65D0006B690 /* MeetContactCell.xib in Resources */,
 				F48FD1D519F7A65D0006B690 /* common_button_2word_down.png in Resources */,

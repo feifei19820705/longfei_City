@@ -63,6 +63,8 @@
     float brx = self.view.frame.size.width - brw - 5.0;
     float bry = (44 - brh)/2;
     _sureBtn.frame = CGRectMake(brx, bry, brw, brh);
+    
+    pAddressBookTableView.frame = CGRectMake(0, _titlebarImgView.frame.size.height + StateBar_H, UIScreen_W, UIScreen_H - _titlebarImgView.frame.size.height - StateBar_H);
 }
 
 
@@ -464,11 +466,11 @@
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
     
-    if (IOS_Greater_Or_Equal(__IOS_7_0))
-    {
-    }
-    else
-    {
+//    if (IOS_Greater_Or_Equal(__IOS_7_0))
+//    {
+//    }
+//    else
+//    {
         searchBar.showsCancelButton = YES;
         for(id pSearchButton in [searchBar subviews])
         {
@@ -478,7 +480,8 @@
                 [btn setTitle:@"确定"  forState:UIControlStateNormal];
             }
         }
-    }
+//    }
+    
     
 }
 
@@ -498,7 +501,7 @@
     {
         [controller.searchBar setBackgroundImage:[UIImage imageNamed:@"personalcenter_icon_search_background.png"]];
         
-        [tableView setFrame:CGRectMake(0, 44, 320, controller.searchContentsController.view.frame.size.height - 44)];
+        [tableView setFrame:CGRectMake(0, 44 + 20, 320, controller.searchContentsController.view.frame.size.height - 44 - 20)];
     }
 }
 
