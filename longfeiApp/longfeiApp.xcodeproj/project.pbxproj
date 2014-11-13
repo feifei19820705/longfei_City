@@ -52,6 +52,7 @@
 		F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */; };
 		F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */; };
 		F4F8712F1A144B7D00B05F42 /* bluesky.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F8712E1A144B7D00B05F42 /* bluesky.png */; };
+		F4F8713E1A1491B500B05F42 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8713D1A1491B500B05F42 /* ImagePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,8 @@
 		F48FD1DD19F7A6BD0006B690 /* git命令总结.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "git命令总结.rtfd"; sourceTree = "<group>"; };
 		F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "物业公司微信平台功能需求.docx"; sourceTree = "<group>"; };
 		F4F8712E1A144B7D00B05F42 /* bluesky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluesky.png; sourceTree = "<group>"; };
+		F4F8713C1A1491B500B05F42 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		F4F8713D1A1491B500B05F42 /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +243,7 @@
 		F48FD1A619F7A65D0006B690 /* developercode */ = {
 			isa = PBXGroup;
 			children = (
+				F4F8713B1A1491B500B05F42 /* ImagePicker */,
 				F42227B21A13521E00E8FAD5 /* PasswordSetView */,
 				F48FD1A719F7A65D0006B690 /* AddressBook */,
 				F48FD1AD19F7A65D0006B690 /* AddressBook_Meet_ViewController.h */,
@@ -334,6 +338,15 @@
 				F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */,
 			);
 			path = imageResource;
+			sourceTree = "<group>";
+		};
+		F4F8713B1A1491B500B05F42 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F4F8713C1A1491B500B05F42 /* ImagePickerViewController.h */,
+				F4F8713D1A1491B500B05F42 /* ImagePickerViewController.m */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +484,7 @@
 				F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */,
 				F48FD1D319F7A65D0006B690 /* MeetContactCell.mm in Sources */,
 				F48FD14219F786DE0006B690 /* main.m in Sources */,
+				F4F8713E1A1491B500B05F42 /* ImagePickerViewController.m in Sources */,
 				F48FD1D119F7A65D0006B690 /* MainViewControllor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
