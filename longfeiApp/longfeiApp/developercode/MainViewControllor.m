@@ -59,7 +59,7 @@
 {
     [super viewDidLoad];
     
-    UIImageView* pBgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sky@2x.png"]];
+    UIImageView* pBgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bluesky.png"]];
     pBgImageView.frame = CGRectMake(0, 0, UIScreen_W, UIScreen_H);
     [self.view addSubview:pBgImageView];
     [pBgImageView release];

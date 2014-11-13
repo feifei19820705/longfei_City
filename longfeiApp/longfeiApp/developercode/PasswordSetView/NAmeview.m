@@ -19,7 +19,7 @@
         // Initialization code
 //        [self setBackgroundColor:[UIColor yellowColor]];
         
-        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"sky@2x.png"]];
+        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bluesky.png"]];
         
         mutalearray = [[NSMutableArray array]retain];
         mutag = [[NSMutableArray array]retain ];
