@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImagePickerControllerSourceType
+    //UIImagePickerControllerSourceType
     // Do any additional setup after loading the view.
 }
 

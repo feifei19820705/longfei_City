@@ -46,6 +46,8 @@
 		F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */ = {isa = PBXBuildFile; fileRef = F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */; };
 		F4BC81D51A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.33.36.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BC81D31A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.33.36.png */; };
 		F4BC81D61A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.36.31.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BC81D41A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.36.31.png */; };
+		F4BC81DA1A15DF0D002FC476 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81D91A15DF0D002FC476 /* UIDevice+IdentifierAddition.m */; };
+		F4BC81DD1A15DF78002FC476 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81DC1A15DF78002FC476 /* NSString+MD5Addition.m */; };
 		F4F8712F1A144B7D00B05F42 /* bluesky.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F8712E1A144B7D00B05F42 /* bluesky.png */; };
 		F4F8713E1A1491B500B05F42 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8713D1A1491B500B05F42 /* ImagePickerViewController.m */; };
 /* End PBXBuildFile section */
@@ -114,6 +116,11 @@
 		F48FD1DF19F7A8110006B690 /* 物业公司微信平台功能需求.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "物业公司微信平台功能需求.docx"; sourceTree = "<group>"; };
 		F4BC81D31A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.33.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-11-13 下午5.33.36.png"; sourceTree = "<group>"; };
 		F4BC81D41A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.36.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-11-13 下午5.36.31.png"; sourceTree = "<group>"; };
+		F4BC81D81A15DF0D002FC476 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		F4BC81D91A15DF0D002FC476 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		F4BC81DB1A15DF78002FC476 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		F4BC81DC1A15DF78002FC476 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		F4BC81DE1A15E1DF002FC476 /* longfeiApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "longfeiApp-Prefix.pch"; sourceTree = "<group>"; };
 		F4F8712E1A144B7D00B05F42 /* bluesky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluesky.png; sourceTree = "<group>"; };
 		F4F8713C1A1491B500B05F42 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
 		F4F8713D1A1491B500B05F42 /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
@@ -189,6 +196,7 @@
 		F48FD13F19F786DE0006B690 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4BC81DE1A15E1DF002FC476 /* longfeiApp-Prefix.pch */,
 				F48FD14019F786DE0006B690 /* Info.plist */,
 				F48FD14119F786DE0006B690 /* main.m */,
 			);
@@ -212,6 +220,7 @@
 		F48FD1A619F7A65D0006B690 /* developercode */ = {
 			isa = PBXGroup;
 			children = (
+				F4BC81D71A15DF0D002FC476 /* publicModule */,
 				F4F8713B1A1491B500B05F42 /* ImagePicker */,
 				F42227B21A13521E00E8FAD5 /* PasswordSetView */,
 				F48FD1A719F7A65D0006B690 /* AddressBook */,
@@ -307,6 +316,17 @@
 				F48FD1C919F7A65D0006B690 /* personalcenter_icon_search_background.png */,
 			);
 			path = imageResource;
+			sourceTree = "<group>";
+		};
+		F4BC81D71A15DF0D002FC476 /* publicModule */ = {
+			isa = PBXGroup;
+			children = (
+				F4BC81DB1A15DF78002FC476 /* NSString+MD5Addition.h */,
+				F4BC81DC1A15DF78002FC476 /* NSString+MD5Addition.m */,
+				F4BC81D81A15DF0D002FC476 /* UIDevice+IdentifierAddition.h */,
+				F4BC81D91A15DF0D002FC476 /* UIDevice+IdentifierAddition.m */,
+			);
+			path = publicModule;
 			sourceTree = "<group>";
 		};
 		F4F8713B1A1491B500B05F42 /* ImagePicker */ = {
@@ -444,7 +464,9 @@
 				F48FD1CA19F7A65D0006B690 /* AddressBookData.mm in Sources */,
 				F42227B51A13521E00E8FAD5 /* NAmeview.m in Sources */,
 				F48FD1CB19F7A65D0006B690 /* RegexKitLite.m in Sources */,
+				F4BC81DA1A15DF0D002FC476 /* UIDevice+IdentifierAddition.m in Sources */,
 				F48FD1CC19F7A65D0006B690 /* AddressBook_Meet_ViewController.mm in Sources */,
+				F4BC81DD1A15DF78002FC476 /* NSString+MD5Addition.m in Sources */,
 				F48FD1D019F7A65D0006B690 /* JSONKit.m in Sources */,
 				F48FD1D319F7A65D0006B690 /* MeetContactCell.mm in Sources */,
 				F48FD14219F786DE0006B690 /* main.m in Sources */,
@@ -578,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				GCC_PREFIX_HEADER = "longfeiApp/longfeiApp-Prefix.pch";
 				INFOPLIST_FILE = longfeiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -592,6 +615,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yan Ling Jiao (798ADME668)";
+				GCC_PREFIX_HEADER = "longfeiApp/longfeiApp-Prefix.pch";
 				INFOPLIST_FILE = longfeiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
