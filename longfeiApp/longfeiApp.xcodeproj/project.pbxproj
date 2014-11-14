@@ -57,6 +57,13 @@
 		F4BC82241A15F048002FC476 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4BC82201A15F048002FC476 /* LICENCE.txt */; };
 		F4BC82251A15F048002FC476 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82221A15F048002FC476 /* Reachability.m */; };
 		F4BC82261A15F048002FC476 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82231A15F048002FC476 /* README.md */; };
+		F4BC82291A15FA33002FC476 /* MCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82281A15FA33002FC476 /* MCustomSwitch.m */; };
+		F4BC822C1A15FA65002FC476 /* MBResource.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC822B1A15FA65002FC476 /* MBResource.m */; };
+		F4BC822F1A15FA97002FC476 /* MCustomSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC822E1A15FA97002FC476 /* MCustomSelection.m */; };
+		F4BC82321A15FAC6002FC476 /* IconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82311A15FAC5002FC476 /* IconButton.m */; };
+		F4BC82351A15FB05002FC476 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82341A15FB05002FC476 /* CustomAlertView.m */; };
+		F4BC82381A15FB33002FC476 /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82371A15FB33002FC476 /* CustomToolBar.m */; };
+		F4BC823B1A15FB92002FC476 /* LocalNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC823A1A15FB92002FC476 /* LocalNotificationCenter.m */; };
 		F4F8712F1A144B7D00B05F42 /* bluesky.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F8712E1A144B7D00B05F42 /* bluesky.png */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +149,20 @@
 		F4BC82211A15F048002FC476 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		F4BC82221A15F048002FC476 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		F4BC82231A15F048002FC476 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4BC82271A15FA33002FC476 /* MCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCustomSwitch.h; sourceTree = "<group>"; };
+		F4BC82281A15FA33002FC476 /* MCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCustomSwitch.m; sourceTree = "<group>"; };
+		F4BC822A1A15FA65002FC476 /* MBResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBResource.h; sourceTree = "<group>"; };
+		F4BC822B1A15FA65002FC476 /* MBResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBResource.m; sourceTree = "<group>"; };
+		F4BC822D1A15FA97002FC476 /* MCustomSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCustomSelection.h; sourceTree = "<group>"; };
+		F4BC822E1A15FA97002FC476 /* MCustomSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCustomSelection.m; sourceTree = "<group>"; };
+		F4BC82301A15FAC5002FC476 /* IconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconButton.h; sourceTree = "<group>"; };
+		F4BC82311A15FAC5002FC476 /* IconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconButton.m; sourceTree = "<group>"; };
+		F4BC82331A15FB05002FC476 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		F4BC82341A15FB05002FC476 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		F4BC82361A15FB33002FC476 /* CustomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
+		F4BC82371A15FB33002FC476 /* CustomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
+		F4BC82391A15FB92002FC476 /* LocalNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationCenter.h; sourceTree = "<group>"; };
+		F4BC823A1A15FB92002FC476 /* LocalNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationCenter.m; sourceTree = "<group>"; };
 		F4F8712E1A144B7D00B05F42 /* bluesky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluesky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -332,6 +353,20 @@
 		F4BC81F21A15E4C9002FC476 /* CustomControl */ = {
 			isa = PBXGroup;
 			children = (
+				F4BC82391A15FB92002FC476 /* LocalNotificationCenter.h */,
+				F4BC823A1A15FB92002FC476 /* LocalNotificationCenter.m */,
+				F4BC82361A15FB33002FC476 /* CustomToolBar.h */,
+				F4BC82371A15FB33002FC476 /* CustomToolBar.m */,
+				F4BC82331A15FB05002FC476 /* CustomAlertView.h */,
+				F4BC82341A15FB05002FC476 /* CustomAlertView.m */,
+				F4BC82301A15FAC5002FC476 /* IconButton.h */,
+				F4BC82311A15FAC5002FC476 /* IconButton.m */,
+				F4BC822D1A15FA97002FC476 /* MCustomSelection.h */,
+				F4BC822E1A15FA97002FC476 /* MCustomSelection.m */,
+				F4BC822A1A15FA65002FC476 /* MBResource.h */,
+				F4BC822B1A15FA65002FC476 /* MBResource.m */,
+				F4BC82271A15FA33002FC476 /* MCustomSwitch.h */,
+				F4BC82281A15FA33002FC476 /* MCustomSwitch.m */,
 			);
 			path = CustomControl;
 			sourceTree = "<group>";
@@ -527,6 +562,7 @@
 				F4BC820B1A15E4C9002FC476 /* MeetContactCell.mm in Sources */,
 				F4BC82091A15E4C9002FC476 /* pinyin.c in Sources */,
 				F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */,
+				F4BC82381A15FB33002FC476 /* CustomToolBar.m in Sources */,
 				F4BC820F1A15E4C9002FC476 /* MainViewControllor.m in Sources */,
 				F4BC820E1A15E4C9002FC476 /* JSONKit.m in Sources */,
 				F4BC820D1A15E4C9002FC476 /* ImagePickerViewController.m in Sources */,
@@ -535,13 +571,19 @@
 				F4BC82071A15E4C9002FC476 /* AddressBookData.mm in Sources */,
 				F4BC82051A15E4C9002FC476 /* AddressBook_Meet_ViewController.mm in Sources */,
 				F4BC82161A15EFA2002FC476 /* CommonClass.m in Sources */,
+				F4BC82291A15FA33002FC476 /* MCustomSwitch.m in Sources */,
 				F4BC82111A15E4C9002FC476 /* NAmeview.m in Sources */,
 				F4BC82261A15F048002FC476 /* README.md in Sources */,
 				F4BC82081A15E4C9002FC476 /* RegexKitLite.m in Sources */,
 				F4BC82131A15E4C9002FC476 /* UIDevice+IdentifierAddition.m in Sources */,
+				F4BC822C1A15FA65002FC476 /* MBResource.m in Sources */,
+				F4BC82351A15FB05002FC476 /* CustomAlertView.m in Sources */,
+				F4BC82321A15FAC6002FC476 /* IconButton.m in Sources */,
 				F48FD14219F786DE0006B690 /* main.m in Sources */,
+				F4BC822F1A15FA97002FC476 /* MCustomSelection.m in Sources */,
 				F4BC82251A15F048002FC476 /* Reachability.m in Sources */,
 				F4BC821D1A15EFE8002FC476 /* MBProgressHUD.m in Sources */,
+				F4BC823B1A15FB92002FC476 /* LocalNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
