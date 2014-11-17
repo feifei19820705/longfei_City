@@ -7,6 +7,7 @@
 //
 
 #import "LocalNotificationCenter.h"
+#import "CommonClass.h"
 
 static LocalNotificationCenter *_sharedCenter = nil;
 
@@ -23,12 +24,28 @@ static LocalNotificationCenter *_sharedCenter = nil;
 
 -(void)localNotificationUpdate:(NSString*)pDateString withNotificationContent:(NSString*)pLocalContent
 {
+    NSArray* pArray = [pDateString componentsSeparatedByString:@"-"];
+    NSLog(@"pArray ---- %@",pArray);
+    
+    NSInteger nSecond = 0;
+    if (pArray)
+    {
+        NSString* pYearString = [pArray objectAtIndex:0];
+        NSString* pMonthString = [pArray objectAtIndex:1];
+        NSString* pDayString = [pArray objectAtIndex:2];
+        nSecond = [CommonClass getTimeInterval:ECommon_Time_second withYear:[pYearString integerValue] withMonth:[pMonthString integerValue] withDay:[pDayString integerValue]];
+    }
+    if (nSecond <= 0)
+    {
+        return;
+    }
+    
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    NSDate *now=[NSDate new];
+    NSDate *now = [NSDate new];
     UILocalNotification *_localNotification = [[UILocalNotification alloc] init];
-    _localNotification.fireDate=[now dateByAddingTimeInterval:7*24*3600];
-    _localNotification.timeZone=[NSTimeZone defaultTimeZone];
-    _localNotification.alertBody=@"您已经7天没有运动了，您的小伙伴知道么?";
+    _localNotification.fireDate = [now dateByAddingTimeInterval:nSecond];
+    _localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    _localNotification.alertBody = pLocalContent;
     _localNotification.soundName = UILocalNotificationDefaultSoundName;
     [[UIApplication sharedApplication] scheduleLocalNotification:_localNotification];
     [now release];

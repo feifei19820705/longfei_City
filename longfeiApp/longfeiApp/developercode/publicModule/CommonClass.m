@@ -91,32 +91,32 @@ static MBProgressHUD *_progressHUD;
             
         default:        //默认返回间隔的秒数
         {
-//            dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-//            nTimeValue = dateComponents.second;
-            
-            dateComponents = [greCalendar components:NSYearCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-            nTimeValue = dateComponents.year;
-            NSLog(@"year=== %i",nTimeValue);
-            
-            dateComponents = [greCalendar components:NSMonthCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-            nTimeValue = dateComponents.month;
-            NSLog(@"month=== %i",nTimeValue);
-            
-            dateComponents = [greCalendar components:NSDayCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-            nTimeValue = dateComponents.day;
-            NSLog(@"day=== %i",nTimeValue);
-            
-            dateComponents = [greCalendar components:NSHourCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-            nTimeValue = dateComponents.hour;
-            NSLog(@"hour=== %i",nTimeValue);
-            
-            dateComponents = [greCalendar components:NSMinuteCalendarUnit fromDate:[NSDate date] toDate:date options:0];
-            nTimeValue = dateComponents.minute;
-            NSLog(@"minute=== %i",nTimeValue);
-            
             dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
             nTimeValue = dateComponents.second;
-            NSLog(@"second=== %i",nTimeValue);
+//测试用
+//            dateComponents = [greCalendar components:NSYearCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.year;
+//            NSLog(@"year=== %i",nTimeValue);
+//            
+//            dateComponents = [greCalendar components:NSMonthCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.month;
+//            NSLog(@"month=== %i",nTimeValue);
+//            
+//            dateComponents = [greCalendar components:NSDayCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.day;
+//            NSLog(@"day=== %i",nTimeValue);
+//            
+//            dateComponents = [greCalendar components:NSHourCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.hour;
+//            NSLog(@"hour=== %i",nTimeValue);
+//            
+//            dateComponents = [greCalendar components:NSMinuteCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.minute;
+//            NSLog(@"minute=== %i",nTimeValue);
+//            
+//            dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.second;
+//            NSLog(@"second=== %i",nTimeValue);
         }
             break;
     }
