@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface LocalNotificationCenter : NSObject
-{
-}
-+(LocalNotificationCenter *)sharedCenter;
--(void)update;
--(void)cancel;
+
++(LocalNotificationCenter *)sharedLocalNotificationCenter;
+-(void)localNotificationUpdate:(NSString*)pDateString withNotificationContent:(NSString*)pLocalContent;
+-(void)cancellocalNotification;
 @end

@@ -2,14 +2,38 @@
 //  CommonClass.h
 //  OnlineNavigation
 //
-//  Created by weilihua on 12-7-3.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by feifei on 12-7-3.
+//  Copyright (c) 2012年 feifei. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+typedef enum _CommonTimeType             //本地通知的时间的类型
+{
+    ECommon_Time_year = 101,
+    ECommon_Time_month,
+    ECommon_Time_Day,
+    ECommon_Time_Hour,
+    ECommon_Time_Minute,
+    ECommon_Time_second
+}CommonTimeType;
 
 @interface CommonClass : NSObject
+
++(NSInteger)getTimeInterval:(CommonTimeType)nCommonTimeType withYear:(NSInteger)nYear withMonth:(NSInteger)nMonth withDay:(NSInteger)nDay;
+
+/**********************************************************
+ 函数名称：numberDaysInMonth     静态方法
+ 函数描述：得到传入的月有多少天
+ 输入参数：（1）(NSInteger) month       传入的月份
+         （2）ofYear:(NSInteger) year 传入的年份
+ 输出参数：N/A
+ 返回值： 返回天数
+ **********************************************************/
++ (NSInteger) numberDaysInMonth:(NSInteger) month ofYear:(NSInteger) year;
+
+//得到当前时间
++(NSString*)GregorianCurrentTime;
 
 /*
  *  时间字符转换

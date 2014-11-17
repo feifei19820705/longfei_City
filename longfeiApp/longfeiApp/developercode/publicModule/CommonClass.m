@@ -2,8 +2,8 @@
 //  CommonClass.m
 //  OnlineNavigation
 //
-//  Created by weilihua on 12-7-3.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by feifei on 12-7-3.
+//  Copyright (c) 2012年 feifei. All rights reserved.
 //
 
 #import "CommonClass.h"
@@ -17,6 +17,119 @@
 
 @implementation CommonClass
 static MBProgressHUD *_progressHUD;
+
++(NSInteger)getTimeInterval:(CommonTimeType)nCommonTimeType withYear:(NSInteger)nYear withMonth:(NSInteger)nMonth withDay:(NSInteger)nDay
+{
+    if (nYear == 0 || nMonth <= 0 || nMonth > 12 || nDay <= 0 || nDay > 31)
+    {
+        return -1;
+    }
+    NSInteger nTimeValue = 0;
+    
+    NSDate *now=[NSDate new];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekdayCalendarUnit |
+    NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
+    NSDateComponents *comps = [calendar components:unitFlags fromDate:now];
+    NSInteger nCurrentYear = [comps year];
+    if (nYear < nCurrentYear)
+    {
+        nYear = nCurrentYear;
+    }
+    
+    NSDateComponents *pDateComps = [[NSDateComponents alloc] init];
+    [pDateComps setYear:nYear];
+    [pDateComps setMonth:nMonth];
+    [pDateComps setDay:nDay];
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDate *date = [gregorian dateFromComponents:pDateComps];
+    NSLog(@"data === %@",date.description);
+    [pDateComps release];
+    
+    //  先定义一个遵循某个历法的日历对象
+    NSCalendar *greCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    //  根据两个时间点，定义NSDateComponents对象，从而获取这两个时间点的时差
+    NSDateComponents *dateComponents = nil;
+    switch (nCommonTimeType) {
+        case ECommon_Time_year:
+        {
+            dateComponents = [greCalendar components:NSYearCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.year;
+        }
+            break;
+        case ECommon_Time_month:
+        {
+            dateComponents = [greCalendar components:NSMonthCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.month;
+        }
+            break;
+        case ECommon_Time_Day:
+        {
+            dateComponents = [greCalendar components:NSDayCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.day;
+        }
+            break;
+        case ECommon_Time_Hour:
+        {
+            dateComponents = [greCalendar components:NSHourCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.hour;
+        }
+            break;
+        case ECommon_Time_Minute:
+        {
+            dateComponents = [greCalendar components:NSMinuteCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.minute;
+        }
+            break;
+        case ECommon_Time_second:
+        {
+            dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.second;
+            
+        }
+            break;
+            
+        default:        //默认返回间隔的秒数
+        {
+//            dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+//            nTimeValue = dateComponents.second;
+            
+            dateComponents = [greCalendar components:NSYearCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.year;
+            NSLog(@"year=== %i",nTimeValue);
+            
+            dateComponents = [greCalendar components:NSMonthCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.month;
+            NSLog(@"month=== %i",nTimeValue);
+            
+            dateComponents = [greCalendar components:NSDayCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.day;
+            NSLog(@"day=== %i",nTimeValue);
+            
+            dateComponents = [greCalendar components:NSHourCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.hour;
+            NSLog(@"hour=== %i",nTimeValue);
+            
+            dateComponents = [greCalendar components:NSMinuteCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.minute;
+            NSLog(@"minute=== %i",nTimeValue);
+            
+            dateComponents = [greCalendar components:NSSecondCalendarUnit fromDate:[NSDate date] toDate:date options:0];
+            nTimeValue = dateComponents.second;
+            NSLog(@"second=== %i",nTimeValue);
+        }
+            break;
+    }
+    
+    if (nTimeValue < 0)    //表示是过去的时间，因此需重新设置
+    {
+        nYear = nYear + 1;
+        nTimeValue = [CommonClass getTimeInterval:nCommonTimeType withYear:nYear withMonth:nMonth withDay:nDay];
+    }
+    
+    //NSLog(@"year == %i,month == %i,day == %i,hour == %i,min == %i,sencod == %i",dateComponents.year,dateComponents.month,dateComponents.day,dateComponents.hour,dateComponents.minute,dateComponents.second);
+    return nTimeValue;
+}
 
 //显示只有文字的提示框
 + (void)showOnlyTextProgressHUD:(UIView*)view text:(NSString*)text time :(NSInteger)time
@@ -179,6 +292,37 @@ static MBProgressHUD *_progressHUD;
     NSString *data = [formater stringFromDate:curDate];
     [formater release];
     return data;
+}
+
+//得到当前时间
++(NSString*)GregorianCurrentTime
+{
+    NSDate *now=[NSDate new];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekdayCalendarUnit |
+    NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
+    NSDateComponents *comps = [calendar components:unitFlags fromDate:now];
+    NSInteger hour = [comps hour];
+    NSInteger min = [comps minute];
+    NSInteger sec = [comps second];
+    NSInteger year = [comps year];
+    NSInteger month = [comps month];
+    NSInteger day = [comps day];
+    NSLog(@"格林威治时间  year == %i,month == %i,day == %i,hour == %i,min == %i,sencod == %i",year,month,day,hour,min,sec);
+    return [NSString stringWithFormat:@"%i-%i-%i-%i-%i-%i",year,month,day,hour,min,sec];
+}
+
+//得到该月有多少天
++ (NSInteger) numberDaysInMonth:(NSInteger) month ofYear:(NSInteger) year
+{
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM"];
+    NSString* str = [NSString stringWithFormat:@"%d-%d",year,month];
+    NSDate* date = [formatter dateFromString:str];
+    [formatter release];
+    NSCalendar *calender = [NSCalendar currentCalendar];
+    NSRange range = [calender rangeOfUnit:NSDayCalendarUnit inUnit: NSMonthCalendarUnit forDate: date];
+    return range.length;
 }
 
 //获得当前时间的指定格式

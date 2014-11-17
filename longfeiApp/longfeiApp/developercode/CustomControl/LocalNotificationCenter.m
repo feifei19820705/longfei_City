@@ -2,17 +2,17 @@
 //  LocalNotificationCenter.m
 //  iosNewNavi
 //
-//  Created by gaoying on 14-1-21.
-//  Copyright (c) 2014年 delon. All rights reserved.
+//  Created by feifei on 14-1-21.
+//  Copyright (c) 2014年 feifei. All rights reserved.
 //
 
 #import "LocalNotificationCenter.h"
 
-#define NAVI_LOCALNOTIFICATION @"NAVI_LOCALNOTIFICATION"
-
 static LocalNotificationCenter *_sharedCenter = nil;
+
 @implementation LocalNotificationCenter
-+(LocalNotificationCenter *)sharedCenter
+
++(instancetype)sharedLocalNotificationCenter
 {
     if(!_sharedCenter)
     {
@@ -20,15 +20,8 @@ static LocalNotificationCenter *_sharedCenter = nil;
     }
     return _sharedCenter;
 }
--(id)init
-{
-    self = [super init];
-    if(self)
-    {
-    }
-    return self;
-}
--(void)update
+
+-(void)localNotificationUpdate:(NSString*)pDateString withNotificationContent:(NSString*)pLocalContent
 {
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
     NSDate *now=[NSDate new];
@@ -41,8 +34,10 @@ static LocalNotificationCenter *_sharedCenter = nil;
     [now release];
     [_localNotification release];
 }
--(void)cancel
+
+-(void)cancellocalNotification
 {
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
 }
+
 @end
