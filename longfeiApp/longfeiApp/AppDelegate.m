@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Common.h"
 #import "AddressBookData.h"
 
 @interface AppDelegate ()
@@ -23,11 +22,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-//    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
-//    {
-//        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-//    }
     
     [AddressBookData AddressBookCreateAndGetData];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
