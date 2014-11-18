@@ -12,6 +12,11 @@
 		F42227E41A13523A00E8FAD5 /* 11111122222333333.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */; };
 		F42227E51A13523A00E8FAD5 /* 222222233333334445566.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F42227BB1A13523A00E8FAD5 /* 222222233333334445566.rtf */; };
 		F42227F81A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png in Resources */ = {isa = PBXBuildFile; fileRef = F42227DA1A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png */; };
+		F437130E1A1B4FC300DEFCCC /* 开源中国.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F43713091A1B4FC200DEFCCC /* 开源中国.rtf */; };
+		F437130F1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.04.png in Resources */ = {isa = PBXBuildFile; fileRef = F437130A1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.04.png */; };
+		F43713101A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.20.png in Resources */ = {isa = PBXBuildFile; fileRef = F437130B1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.20.png */; };
+		F43713111A1B4FC300DEFCCC /* github免输入密码.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F437130C1A1B4FC300DEFCCC /* github免输入密码.rtf */; };
+		F43713121A1B4FC300DEFCCC /* ios本地消息通知的使用.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F437130D1A1B4FC300DEFCCC /* ios本地消息通知的使用.rtf */; };
 		F48FD14219F786DE0006B690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14119F786DE0006B690 /* main.m */; };
 		F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48FD14419F786DE0006B690 /* AppDelegate.m */; };
 		F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48FD14919F786DE0006B690 /* Main.storyboard */; };
@@ -92,6 +97,11 @@
 		F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 11111122222333333.rtf; sourceTree = "<group>"; };
 		F42227BB1A13523A00E8FAD5 /* 222222233333334445566.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 222222233333334445566.rtf; sourceTree = "<group>"; };
 		F42227DA1A13523A00E8FAD5 /* 屏幕快照 2014-10-16 上午9.46.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-10-16 上午9.46.48.png"; sourceTree = "<group>"; };
+		F43713091A1B4FC200DEFCCC /* 开源中国.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "开源中国.rtf"; sourceTree = "<group>"; };
+		F437130A1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-11-17 下午1.49.04.png"; sourceTree = "<group>"; };
+		F437130B1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2014-11-17 下午1.49.20.png"; sourceTree = "<group>"; };
+		F437130C1A1B4FC300DEFCCC /* github免输入密码.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "github免输入密码.rtf"; sourceTree = "<group>"; };
+		F437130D1A1B4FC300DEFCCC /* ios本地消息通知的使用.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "ios本地消息通知的使用.rtf"; sourceTree = "<group>"; };
 		F48FD13C19F786DE0006B690 /* longfeiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = longfeiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48FD14019F786DE0006B690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F48FD14119F786DE0006B690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -269,6 +279,11 @@
 		F48FD1BF19F7A65D0006B690 /* RemarksFile */ = {
 			isa = PBXGroup;
 			children = (
+				F43713091A1B4FC200DEFCCC /* 开源中国.rtf */,
+				F437130A1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.04.png */,
+				F437130B1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.20.png */,
+				F437130C1A1B4FC300DEFCCC /* github免输入密码.rtf */,
+				F437130D1A1B4FC300DEFCCC /* ios本地消息通知的使用.rtf */,
 				F4BC81D31A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.33.36.png */,
 				F4BC81D41A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.36.31.png */,
 				F42227BA1A13523A00E8FAD5 /* 11111122222333333.rtf */,
@@ -564,10 +579,13 @@
 				F4BC824B1A160163002FC476 /* off_ico.png in Resources */,
 				F4BC82061A15E4C9002FC476 /* AddressBook_Meet_ViewController.xib in Resources */,
 				F48FD1E319F7A8110006B690 /* 物业公司微信平台功能需求.docx in Resources */,
+				F43713121A1B4FC300DEFCCC /* ios本地消息通知的使用.rtf in Resources */,
 				F48FD14B19F786DE0006B690 /* Main.storyboard in Resources */,
 				F48FD1DC19F7A65D0006B690 /* personalcenter_icon_search_background.png in Resources */,
 				F48FD1D619F7A65D0006B690 /* common_button_2word_down@2x.png in Resources */,
 				F48FD1D819F7A65D0006B690 /* common_button_2word_up@2x.png in Resources */,
+				F437130E1A1B4FC300DEFCCC /* 开源中国.rtf in Resources */,
+				F437130F1A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.04.png in Resources */,
 				F48FD1DB19F7A65D0006B690 /* common_titlebar.png in Resources */,
 				F4BC824E1A160163002FC476 /* on_bg@2x.png in Resources */,
 				F48FD1DA19F7A65D0006B690 /* common_button_back_up.png in Resources */,
@@ -580,6 +598,8 @@
 				F4BC81D51A15A033002FC476 /* 屏幕快照 2014-11-13 下午5.33.36.png in Resources */,
 				F48FD15019F786DE0006B690 /* LaunchScreen.xib in Resources */,
 				F42227B91A13522C00E8FAD5 /* 21.png in Resources */,
+				F43713101A1B4FC300DEFCCC /* 屏幕快照 2014-11-17 下午1.49.20.png in Resources */,
+				F43713111A1B4FC300DEFCCC /* github免输入密码.rtf in Resources */,
 				F42227B81A13522C00E8FAD5 /* 5.png in Resources */,
 				F4BC824D1A160163002FC476 /* on_bg.png in Resources */,
 				F4BC82101A15E4C9002FC476 /* MainViewControllor.xib in Resources */,
