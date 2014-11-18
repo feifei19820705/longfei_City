@@ -39,18 +39,26 @@
 
 
 
+//NSUInteger DeviceSystemMajorVersion(void);
+//NSUInteger DeviceSystemMajorVersion(void)
+//{
+//    static NSUInteger _deviceSystemMajorVersion = -1;
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        
+//        _deviceSystemMajorVersion = [[[[[UIDevice currentDevice] systemVersion] componentsSeparatedByString:@"."] objectAtIndex:0] intValue];
+//    });
+//    return _deviceSystemMajorVersion;
+//}
+//#define MY_MACRO_NAME (DeviceSystemMajorVersion() < 7)
 
-NSUInteger DeviceSystemMajorVersion(void);
-NSUInteger DeviceSystemMajorVersion(void)
-{
-    static NSUInteger _deviceSystemMajorVersion = -1;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        
-        _deviceSystemMajorVersion = [[[[[UIDevice currentDevice] systemVersion] componentsSeparatedByString:@"."] objectAtIndex:0] intValue];
-    });
-    return _deviceSystemMajorVersion;
-}
-#define MY_MACRO_NAME (DeviceSystemMajorVersion() < 7)
+/*NSUInteger DeviceSystemMajorVersion(void)   需要注释掉，否则模拟器运行会报以下的错误
+ duplicate symbol _DeviceSystemMajorVersion in:
+ /Users/home/Library/Developer/Xcode/DerivedData/longfeiApp-bruuwzvwgyvxixadqcvizuysmxmt/Build/Intermediates/longfeiApp.build/Debug-iphonesimulator/longfeiApp.build/Objects-normal/i386/MainViewControllor.o
+ /Users/home/Library/Developer/Xcode/DerivedData/longfeiApp-bruuwzvwgyvxixadqcvizuysmxmt/Build/Intermediates/longfeiApp.build/Debug-iphonesimulator/longfeiApp.build/Objects-normal/i386/NAmeview.o
+ ld: 1 duplicate symbol for architecture i386
+ clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ */
+
 
 #endif

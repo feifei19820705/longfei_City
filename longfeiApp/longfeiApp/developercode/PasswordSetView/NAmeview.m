@@ -7,7 +7,7 @@
 //
 
 #import "NAmeview.h"
-//#import "LongCommon.h"
+#import "LongCommon.h"
 
 @implementation NAmeview
 
