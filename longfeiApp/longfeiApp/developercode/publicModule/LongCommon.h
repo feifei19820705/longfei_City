@@ -1,5 +1,5 @@
 //
-//  Common.h
+//  LongCommon.h
 //  navidog4x
 //
 //  Created by heweihua on 12-10-31.

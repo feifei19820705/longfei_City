@@ -10,7 +10,7 @@
 #import "RegexKitLite.h"
 #import "AddressBook_Meet_ViewController.h"
 #import "AppDelegate.h"
-#import "Common.h"
+#import "LongCommon.h"
 #import "CommonClass.h"
 #import "NAmeview.h"
 

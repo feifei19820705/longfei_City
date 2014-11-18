@@ -9,7 +9,7 @@
 #import "AddressBook_Meet_ViewController.h"
 #import "JSONKit.h"
 #import "AppDelegate.h"
-#import "Common.h"
+#import "LongCommon.h"
 #import "MeetContactCell.h"
 
 @interface AddressBook_Meet_ViewController ()

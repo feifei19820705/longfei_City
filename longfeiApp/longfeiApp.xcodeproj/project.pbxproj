@@ -143,7 +143,7 @@
 		F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
 		F4BC81FD1A15E4C9002FC476 /* NAmeview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAmeview.h; sourceTree = "<group>"; };
 		F4BC81FE1A15E4C9002FC476 /* NAmeview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAmeview.m; sourceTree = "<group>"; };
-		F4BC82001A15E4C9002FC476 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F4BC82001A15E4C9002FC476 /* LongCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongCommon.h; sourceTree = "<group>"; };
 		F4BC82011A15E4C9002FC476 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
 		F4BC82021A15E4C9002FC476 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		F4BC82031A15E4C9002FC476 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
@@ -426,7 +426,7 @@
 				F4BC821F1A15F048002FC476 /* Reachability */,
 				F4BC82141A15EFA2002FC476 /* CommonClass.h */,
 				F4BC82151A15EFA2002FC476 /* CommonClass.m */,
-				F4BC82001A15E4C9002FC476 /* Common.h */,
+				F4BC82001A15E4C9002FC476 /* LongCommon.h */,
 				F4BC82011A15E4C9002FC476 /* NSString+MD5Addition.h */,
 				F4BC82021A15E4C9002FC476 /* NSString+MD5Addition.m */,
 				F4BC82031A15E4C9002FC476 /* UIDevice+IdentifierAddition.h */,

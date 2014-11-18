@@ -7,7 +7,7 @@
 //
 
 #import "NAmeview.h"
-#import "Common.h"
+//#import "LongCommon.h"
 
 @implementation NAmeview
 
@@ -138,6 +138,8 @@
 resulttext.text = string;
 
 }
+
+
 
 
 @end
