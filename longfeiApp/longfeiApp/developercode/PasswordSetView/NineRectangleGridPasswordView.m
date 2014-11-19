@@ -9,21 +9,59 @@
 #import "NineRectangleGridPasswordView.h"
 #import "LongCommon.h"
 
+#define NineRectangleGrid @"NineRectangleGridPasswordView"
+
+@interface NineRectangleGridPasswordView()
+{
+    UILabel* pPromptTextLabel;   //提示文本
+}
+
+@end
+
 @implementation NineRectangleGridPasswordView
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame withShowType:(PasswordType)nPasswordType
 {
     self = [super initWithFrame:frame];
     if (self)
     {
         // Initialization code
 //        [self setBackgroundColor:[UIColor yellowColor]];
+        pPromptTextLabel = [[UILabel alloc] init];
+        pPromptTextLabel.backgroundColor = [UIColor clearColor];
+        pPromptTextLabel.textColor = [UIColor whiteColor];
+        if (nPasswordType == ESet_Password)         //设置密码
+        {
+            
+        }
+        else if(nPasswordType == ECheck_PassWord)   //二次确认密码
+        {
+            
+        }
+        else if(nPasswordType == ELoginIn_PassWord) //登陆输入密码
+        {
+            
+        }
+        else if(nPasswordType == EOtherPassWordType) //其他
+        {
+            
+        }
+        
+        NSUserDefaults* pUserDefaults = [NSUserDefaults standardUserDefaults];
+        if ([pUserDefaults objectForKey:NineRectangleGrid])   //表示已经设置过
+        {
+            
+        }
+        else
+        {
+            
+        }
         
         self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bluesky.png"]];
         
         mutalearray = [[NSMutableArray array]retain];
         mutag = [[NSMutableArray array]retain ];
-        resulttext = [[UITextField alloc]initWithFrame:CGRectMake(20, 30, 200, 40)];
+        resulttext = [[UITextField alloc]initWithFrame:CGRectMake(20, 30, 100, 40)];
         
         [resulttext resignFirstResponder];
         resulttext.textColor = [UIColor whiteColor];
@@ -45,6 +83,71 @@
         }
     }
     return self;
+}
+
+- (void)setNeedsLayout
+{
+    NSLog(@"--------- %@",NSStringFromSelector(_cmd));
+    self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bluesky.png"]];
+
+    if (UIScreen_W > UIScreen_H)   //横屏
+    {
+        self.frame = CGRectMake(0, 0, UIScreen_W, UIScreen_H);
+//        resulttext.frame = CGRectMake(126+3*98, 26, 100, 40);
+        int num = [mutalearray count];
+        for (int i=0; i<num; i++)
+        {
+            UIButton *button = (UIButton*)[mutalearray objectAtIndex:i];
+            [button setFrame:CGRectMake(126+(i%3)*98, 26+(i/3)*98, 72, 72)];
+            button.userInteractionEnabled= NO;//用户交互
+        }
+        
+    }
+    else       //竖屏
+    {
+        
+        self.frame = CGRectMake(0, 0, UIScreen_W, UIScreen_H);
+//        resulttext = [[UITextField alloc]initWithFrame:CGRectMake(20, 30, 200, 40)];
+        int num = [mutalearray count];
+        for (int i=0; i<num; i++)
+        {
+            UIButton *button = (UIButton*)[mutalearray objectAtIndex:i];
+            [button setFrame:CGRectMake(26+(i%3)*98, 126+(i/3)*98, 72, 72)];
+            button.userInteractionEnabled= NO;//用户交互
+        }
+    }
+
+}
+- (void)layoutIfNeeded
+{
+    NSLog(@"--------- %@",NSStringFromSelector(_cmd));
+}
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    
+    if (UIScreen_W > UIScreen_H)   //横屏
+    {
+        int num = [mutalearray count];
+        for (int i=0; i<num; i++)
+        {
+            UIButton *button = (UIButton*)[mutalearray objectAtIndex:i];
+            [button setFrame:CGRectMake(126+(i%3)*98, 26+(i/3)*98, 72, 72)];
+            button.userInteractionEnabled= NO;//用户交互
+        }
+
+    }
+    else       //竖屏
+    {
+        int num = [mutalearray count];
+        for (int i=0; i<num; i++)
+        {
+            UIButton *button = (UIButton*)[mutalearray objectAtIndex:i];
+            [button setFrame:CGRectMake(26+(i%3)*98, 126+(i/3)*98, 72, 72)];
+             button.userInteractionEnabled= NO;//用户交互
+        }
+    }
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
@@ -114,7 +217,7 @@
         CGContextSetLineWidth(contextref, 15);
         CGContextMoveToPoint(contextref, buttonn.center.x, buttonn.center.y);
         
-        for (int t=1; t<mutag.count; t++) {
+        for (int t=0; t<mutag.count; t++) {
             buttonn1 = mutag[t];
             CGContextAddLineToPoint(contextref, buttonn1.center.x, buttonn1.center.y);
            

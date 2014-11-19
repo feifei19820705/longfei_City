@@ -103,7 +103,6 @@
 		F4BC820D1A15E4C9002FC476 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F51A15E4C9002FC476 /* ImagePickerViewController.m */; };
 		F4BC820E1A15E4C9002FC476 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F81A15E4C9002FC476 /* JSONKit.m */; };
 		F4BC820F1A15E4C9002FC476 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */; };
-		F4BC82101A15E4C9002FC476 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */; };
 		F4BC82111A15E4C9002FC476 /* NineRectangleGridPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FE1A15E4C9002FC476 /* NineRectangleGridPasswordView.m */; };
 		F4BC82121A15E4C9002FC476 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82021A15E4C9002FC476 /* NSString+MD5Addition.m */; };
 		F4BC82131A15E4C9002FC476 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82041A15E4C9002FC476 /* UIDevice+IdentifierAddition.m */; };
@@ -257,7 +256,6 @@
 		F4BC81F81A15E4C9002FC476 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		F4BC81F91A15E4C9002FC476 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
 		F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
-		F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
 		F4BC81FD1A15E4C9002FC476 /* NineRectangleGridPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineRectangleGridPasswordView.h; sourceTree = "<group>"; };
 		F4BC81FE1A15E4C9002FC476 /* NineRectangleGridPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineRectangleGridPasswordView.m; sourceTree = "<group>"; };
 		F4BC82001A15E4C9002FC476 /* LongCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongCommon.h; sourceTree = "<group>"; };
@@ -509,7 +507,6 @@
 				F4BC81F61A15E4C9002FC476 /* JSONKit */,
 				F4BC81F91A15E4C9002FC476 /* MainViewControllor.h */,
 				F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */,
-				F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */,
 				F4BC81FC1A15E4C9002FC476 /* PasswordSetView */,
 				F4BC81FF1A15E4C9002FC476 /* publicModule */,
 			);
@@ -824,7 +821,6 @@
 				F4AAADE61A1C813F003E32D8 /* cancel_d.png in Resources */,
 				F42227B81A13522C00E8FAD5 /* 5.png in Resources */,
 				F4BC824D1A160163002FC476 /* on_bg.png in Resources */,
-				F4BC82101A15E4C9002FC476 /* MainViewControllor.xib in Resources */,
 				F48FD1DE19F7A6BD0006B690 /* git命令总结.rtfd in Resources */,
 				F4AAADFF1A1C813F003E32D8 /* off_ico.png in Resources */,
 				F4AAADF21A1C813F003E32D8 /* newTag.png in Resources */,

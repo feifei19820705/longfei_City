@@ -15,8 +15,8 @@ typedef enum _PasswordType    //密码类型
 {
     ESet_Password,      //设置（或者修改）密码
     ECheck_PassWord,    //二次确认密码
-    EIn_PassWord,       //输入密码
-    EOtherPassWordType  //其他密码类型
+    ELoginIn_PassWord,  //输入密码
+    EOtherPassWordType  //其他
 }PasswordType;
 
 @interface NineRectangleGridPasswordView : UIView{
@@ -26,5 +26,7 @@ typedef enum _PasswordType    //密码类型
     CGPoint curentpoint;
     UITextField *resulttext;
 }
+
+- (id)initWithFrame:(CGRect)frame withShowType:(PasswordType)nPasswordType;
 
 @end

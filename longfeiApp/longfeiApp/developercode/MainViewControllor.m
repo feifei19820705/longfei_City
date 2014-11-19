@@ -78,8 +78,7 @@
     [self.view setBackgroundColor:[UIColor blackColor]];
     _accessGranted = NO;
     
-    pPasswordView = [[NineRectangleGridPasswordView alloc] init];
-    pPasswordView.frame = CGRectMake(0, 20 ,UIScreen_W, UIScreen_H - 50);
+    pPasswordView = [[NineRectangleGridPasswordView alloc] initWithFrame:CGRectMake(0, StateBar_H ,UIScreen_W, UIScreen_H - StateBar_H) withShowType:ESet_Password];
     [self.view addSubview:pPasswordView];
     [pPasswordView setHidden:YES];
     
