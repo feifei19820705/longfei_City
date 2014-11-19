@@ -34,10 +34,9 @@
         {
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             [button setFrame:CGRectMake(26+(i%3)*98, 126+(i/3)*98, 72, 72)];
-            
-            [button setBackgroundColor:[UIColor whiteColor]];
-            [button setBackgroundImage:[UIImage imageNamed:@"21"] forState:UIControlStateNormal];
-            [button setBackgroundImage:[UIImage imageNamed:@"5"] forState:UIControlStateSelected];
+            [button setBackgroundColor:[UIColor clearColor]];
+            [button setBackgroundImage:[UIImage imageNamed:@"track.png"] forState:UIControlStateNormal];
+            [button setBackgroundImage:[UIImage imageNamed:@"green.png"] forState:UIControlStateSelected];
             button.userInteractionEnabled= NO;//用户交互
             button.alpha = 0.9;
             button.tag = i+10000;

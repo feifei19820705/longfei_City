@@ -157,7 +157,7 @@ static DataSelectorView* pDataSelectorView = nil;
 {
     UIView *v = [[pDateSender subviews] objectAtIndex:0];
     
-    int num = [[pDateSender subviews] count];
+    //int num = [[pDateSender subviews] count];
     int num1 = [[v subviews] count];
     
     //改变最外层的背景
