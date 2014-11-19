@@ -13,6 +13,12 @@
 #import "LongCommon.h"
 #import "CommonClass.h"
 #import "NAmeview.h"
+#import "DataSelectorView.h"
+
+///////////////////////////////////////////////////////////
+ //测试用
+#import "TestViewController.h"
+//////////////////////////////////////////////////////////
 
 @interface MainViewControllor ()
 {
@@ -203,6 +209,13 @@
     [pFinishButton addTarget:self action:@selector(FinishButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pFinishButton];
     
+    UIButton* pTestDatePickerButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    pTestDatePickerButton.frame = CGRectMake(100, 220, 50,80);
+    [pTestDatePickerButton setTitle:@"测试" forState:UIControlStateNormal];
+    [pTestDatePickerButton setTitle:@"测试" forState:UIControlStateHighlighted];
+    [pTestDatePickerButton addTarget:self action:@selector(TestDatePicker) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:pTestDatePickerButton];
+    
     
     pPhoneLabel = [[UILabel alloc] init];
     pPhoneLabel.frame = CGRectMake(10, 180, 300, 40);
@@ -215,6 +228,16 @@
     [self.view addSubview:pPhoneTypeLabel];
 }
 
+-(void)TestDatePicker
+{
+    TestViewController* pTestViewController = [[TestViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:pTestViewController];
+    pTestViewController.title = @"测试视图控制器";
+    [self presentViewController:nav animated:NO completion:^{
+    }];
+    [nav release];
+    [pTestViewController release];
+}
 
 -(void)ShowUsersPhoneInfo:(BOOL)bIsShow   //显示用户使用信息
 {
@@ -245,12 +268,13 @@
     }
     else if(item.tag == 101)
     {
-        [self ShowUsersPhoneInfo:NO];
-        AddressBook_Meet_ViewController* pAddressView = [[AddressBook_Meet_ViewController alloc] initWithNibName:@"AddressBook_Meet_ViewController" bundle:nil];
-        [self presentViewController:pAddressView animated:YES completion:^{
-            
-        }];
-        [pAddressView release];
+//        [self ShowUsersPhoneInfo:NO];
+//        AddressBook_Meet_ViewController* pAddressView = [[AddressBook_Meet_ViewController alloc] initWithNibName:@"AddressBook_Meet_ViewController" bundle:nil];
+//        [self presentViewController:pAddressView animated:YES completion:^{
+//            
+//        }];
+//        [pAddressView release];
+        [DataSelectorView showDataSelector:self.view];
     }
     else if (item.tag == 102)
     {
@@ -261,6 +285,8 @@
 
         //UIDatePicker* pDatePicker = [[UIDatePicker alloc] init];
         [CommonClass getTimeInterval:1 withYear:2014 withMonth:7 withDay:20];
+
+        
     }
 }
 
