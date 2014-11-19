@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 #import "LongCommon.h"
 #import "CommonClass.h"
-#import "NAmeview.h"
+#import "NineRectangleGridPasswordView.h"
 #import "DataSelectorView.h"
 
 ///////////////////////////////////////////////////////////
@@ -22,7 +22,7 @@
 
 @interface MainViewControllor ()
 {
-    NAmeview* pNAmevie;
+    NineRectangleGridPasswordView* pPasswordView;
 }
 
 @end
@@ -54,7 +54,7 @@
 
 -(void)dealloc
 {
-    [pNAmevie release];
+    [pPasswordView release];
     [pTabBar release];
     [pShowPhoneTextField release];
     [pPhoneLabel release];
@@ -78,10 +78,10 @@
     [self.view setBackgroundColor:[UIColor blackColor]];
     _accessGranted = NO;
     
-    pNAmevie = [[NAmeview alloc] init];
-    pNAmevie.frame = CGRectMake(0, 20 ,UIScreen_W, UIScreen_H - 50);
-    [self.view addSubview:pNAmevie];
-    [pNAmevie setHidden:YES];
+    pPasswordView = [[NineRectangleGridPasswordView alloc] init];
+    pPasswordView.frame = CGRectMake(0, 20 ,UIScreen_W, UIScreen_H - 50);
+    [self.view addSubview:pPasswordView];
+    [pPasswordView setHidden:YES];
     
     
     pTabBar = [[UITabBar alloc] init];
@@ -261,7 +261,7 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
 {
     //NSLog(@"--------- %@",NSStringFromSelector(_cmd));
-    [pNAmevie setHidden:YES];
+    [pPasswordView setHidden:YES];
     if (item.tag == 100)
     {
         [self ShowUsersPhoneInfo:YES];
@@ -278,7 +278,7 @@
     }
     else if (item.tag == 102)
     {
-         [pNAmevie setHidden:NO];
+         [pPasswordView setHidden:NO];
     }
     else if (item.tag == 103)
     {

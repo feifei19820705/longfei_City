@@ -1,15 +1,15 @@
 //
-//  NAmeview.m
+//  NineRectangleGridPasswordView.m
 //  feifei
 //
 //  Created by 206 on 13-7-9.
 //  Copyright (c) 2013年 feifei. All rights reserved.
 //
 
-#import "NAmeview.h"
+#import "NineRectangleGridPasswordView.h"
 #import "LongCommon.h"
 
-@implementation NAmeview
+@implementation NineRectangleGridPasswordView
 
 - (id)initWithFrame:(CGRect)frame
 {

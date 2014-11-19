@@ -104,7 +104,7 @@
 		F4BC820E1A15E4C9002FC476 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F81A15E4C9002FC476 /* JSONKit.m */; };
 		F4BC820F1A15E4C9002FC476 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */; };
 		F4BC82101A15E4C9002FC476 /* MainViewControllor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */; };
-		F4BC82111A15E4C9002FC476 /* NAmeview.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FE1A15E4C9002FC476 /* NAmeview.m */; };
+		F4BC82111A15E4C9002FC476 /* NineRectangleGridPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FE1A15E4C9002FC476 /* NineRectangleGridPasswordView.m */; };
 		F4BC82121A15E4C9002FC476 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82021A15E4C9002FC476 /* NSString+MD5Addition.m */; };
 		F4BC82131A15E4C9002FC476 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82041A15E4C9002FC476 /* UIDevice+IdentifierAddition.m */; };
 		F4BC82161A15EFA2002FC476 /* CommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC82151A15EFA2002FC476 /* CommonClass.m */; };
@@ -258,8 +258,8 @@
 		F4BC81F91A15E4C9002FC476 /* MainViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllor.h; sourceTree = "<group>"; };
 		F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllor.m; sourceTree = "<group>"; };
 		F4BC81FB1A15E4C9002FC476 /* MainViewControllor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewControllor.xib; sourceTree = "<group>"; };
-		F4BC81FD1A15E4C9002FC476 /* NAmeview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAmeview.h; sourceTree = "<group>"; };
-		F4BC81FE1A15E4C9002FC476 /* NAmeview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAmeview.m; sourceTree = "<group>"; };
+		F4BC81FD1A15E4C9002FC476 /* NineRectangleGridPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NineRectangleGridPasswordView.h; sourceTree = "<group>"; };
+		F4BC81FE1A15E4C9002FC476 /* NineRectangleGridPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NineRectangleGridPasswordView.m; sourceTree = "<group>"; };
 		F4BC82001A15E4C9002FC476 /* LongCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongCommon.h; sourceTree = "<group>"; };
 		F4BC82011A15E4C9002FC476 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
 		F4BC82021A15E4C9002FC476 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
@@ -605,8 +605,8 @@
 		F4BC81FC1A15E4C9002FC476 /* PasswordSetView */ = {
 			isa = PBXGroup;
 			children = (
-				F4BC81FD1A15E4C9002FC476 /* NAmeview.h */,
-				F4BC81FE1A15E4C9002FC476 /* NAmeview.m */,
+				F4BC81FD1A15E4C9002FC476 /* NineRectangleGridPasswordView.h */,
+				F4BC81FE1A15E4C9002FC476 /* NineRectangleGridPasswordView.m */,
 			);
 			path = PasswordSetView;
 			sourceTree = "<group>";
@@ -866,7 +866,7 @@
 				F4BC82051A15E4C9002FC476 /* AddressBook_Meet_ViewController.mm in Sources */,
 				F4BC82161A15EFA2002FC476 /* CommonClass.m in Sources */,
 				F4BC82291A15FA33002FC476 /* MCustomSwitch.m in Sources */,
-				F4BC82111A15E4C9002FC476 /* NAmeview.m in Sources */,
+				F4BC82111A15E4C9002FC476 /* NineRectangleGridPasswordView.m in Sources */,
 				F4BC82081A15E4C9002FC476 /* RegexKitLite.m in Sources */,
 				F4BC82131A15E4C9002FC476 /* UIDevice+IdentifierAddition.m in Sources */,
 				F4BC822C1A15FA65002FC476 /* MBResource.m in Sources */,
