@@ -320,8 +320,6 @@
 		F4BC82081A15E4C9002FC476 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81E91A15E4C9002FC476 /* RegexKitLite.m */; };
 		F4BC82091A15E4C9002FC476 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81EB1A15E4C9002FC476 /* pinyin.c */; };
 		F4BC820A1A15E4C9002FC476 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81EE1A15E4C9002FC476 /* POAPinyin.m */; };
-		F4BC820B1A15E4C9002FC476 /* MeetContactCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F01A15E4C9002FC476 /* MeetContactCell.mm */; };
-		F4BC820C1A15E4C9002FC476 /* MeetContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BC81F11A15E4C9002FC476 /* MeetContactCell.xib */; };
 		F4BC820D1A15E4C9002FC476 /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F51A15E4C9002FC476 /* ImagePickerViewController.m */; };
 		F4BC820E1A15E4C9002FC476 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81F81A15E4C9002FC476 /* JSONKit.m */; };
 		F4BC820F1A15E4C9002FC476 /* MainViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BC81FA1A15E4C9002FC476 /* MainViewControllor.m */; };
@@ -677,9 +675,6 @@
 		F4BC81EC1A15E4C9002FC476 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 		F4BC81ED1A15E4C9002FC476 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
 		F4BC81EE1A15E4C9002FC476 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
-		F4BC81EF1A15E4C9002FC476 /* MeetContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetContactCell.h; sourceTree = "<group>"; };
-		F4BC81F01A15E4C9002FC476 /* MeetContactCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MeetContactCell.mm; sourceTree = "<group>"; };
-		F4BC81F11A15E4C9002FC476 /* MeetContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeetContactCell.xib; sourceTree = "<group>"; };
 		F4BC81F41A15E4C9002FC476 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
 		F4BC81F51A15E4C9002FC476 /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
 		F4BC81F71A15E4C9002FC476 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
@@ -1170,9 +1165,6 @@
 				F4BC81E31A15E4C9002FC476 /* AddressBook_Meet_ViewController.xib */,
 				F4BC81E41A15E4C9002FC476 /* AddressBookEngine */,
 				F4BC81EA1A15E4C9002FC476 /* AssistFile */,
-				F4BC81EF1A15E4C9002FC476 /* MeetContactCell.h */,
-				F4BC81F01A15E4C9002FC476 /* MeetContactCell.mm */,
-				F4BC81F11A15E4C9002FC476 /* MeetContactCell.xib */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -1388,7 +1380,6 @@
 				F41FA7931A1E0C1E00719CC3 /* NEWIcon@2x.png in Resources */,
 				F42227E51A13523A00E8FAD5 /* 222222233333334445566.rtf in Resources */,
 				F41FA72B1A1E0C1E00719CC3 /* Button_1_Normal@2x.png in Resources */,
-				F4BC820C1A15E4C9002FC476 /* MeetContactCell.xib in Resources */,
 				F41FA7321A1E0C1E00719CC3 /* Button_3_Normal@2x.png in Resources */,
 				F41FA78B1A1E0C1E00719CC3 /* mobile_contacts@2x.png in Resources */,
 				F41FA7951A1E0C1E00719CC3 /* newTag@2x.png in Resources */,
@@ -1688,7 +1679,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BC820A1A15E4C9002FC476 /* POAPinyin.m in Sources */,
-				F4BC820B1A15E4C9002FC476 /* MeetContactCell.mm in Sources */,
 				F4BC82091A15E4C9002FC476 /* pinyin.c in Sources */,
 				F48FD14519F786DE0006B690 /* AppDelegate.m in Sources */,
 				F4AAADAB1A1C3594003E32D8 /* DataSelectorView.m in Sources */,

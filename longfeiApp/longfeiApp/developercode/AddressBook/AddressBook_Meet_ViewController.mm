@@ -10,7 +10,8 @@
 #import "JSONKit.h"
 #import "AppDelegate.h"
 #import "LongCommon.h"
-#import "MeetContactCell.h"
+#import "pinyin.h"
+#import "POAPinyin.h"
 
 @interface AddressBook_Meet_ViewController ()
 
@@ -37,34 +38,17 @@
     return self;
 }
 
--(void) initUI{
-    
-    UIImage* btn2U = [UIImage imageNamed:@"common_button_2word_up"];
-    UIImage* btn2D = [UIImage imageNamed:@"common_button_2word_down"];
-    [_sureBtn setBackgroundImage:btn2U forState:UIControlStateNormal];
-    [_sureBtn setBackgroundImage:btn2D forState:UIControlStateHighlighted];
-    
-    
+-(void) initUI
+{
+    [UIApplication sharedApplication].statusBarHidden = NO;
+
     _titlebarImgView.image = [UIImage imageNamed:@"common_titlebar.png"];
     [_backBtn setBackgroundImage:[UIImage imageNamed:@"common_button_back_up"] forState:UIControlStateNormal];
     [_backBtn setBackgroundImage:[UIImage imageNamed:@"common_button_back_down"] forState:UIControlStateHighlighted];
     _backBtn.titleLabel.font = [UIFont boldSystemFontOfSize:15.0];
-    _sureBtn.titleLabel.font = [UIFont boldSystemFontOfSize:15.0];
     
     
-    float blw = _backBtn.currentBackgroundImage.size.width;
-    float blh = _backBtn.currentBackgroundImage.size.height;
-    float blx = 5.0;
-    float bly = (44 - blh)/2;
-    _backBtn.frame = CGRectMake(blx, bly, blw, blh);
-    
-    float brw = _sureBtn.currentBackgroundImage.size.width;
-    float brh = _sureBtn.currentBackgroundImage.size.height;
-    float brx = self.view.frame.size.width - brw - 5.0;
-    float bry = (44 - brh)/2;
-    _sureBtn.frame = CGRectMake(brx, bry, brw, brh);
-    
-    pAddressBookTableView.frame = CGRectMake(0, _titlebarImgView.frame.size.height + StateBar_H, UIScreen_W, UIScreen_H - _titlebarImgView.frame.size.height - StateBar_H);
+    pAddressBookTableView.frame = CGRectMake(0, _titlebarImgView.frame.size.height + StateBar_H, UIScreen_W, self.view.frame.size.height - _titlebarImgView.frame.size.height - StateBar_H);
 }
 
 
@@ -156,7 +140,6 @@
     
     [_titlebarImgView release];
     [_backBtn release];
-    [_sureBtn release];
     [super dealloc];
 }
 
@@ -260,6 +243,21 @@
     }];
 }
 
+#pragma mark - ISO5.0
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
+    return YES;
+}
+
+#pragma mark - IOS6.0
+- (BOOL)shouldAutorotate {
+    return YES;
+}
+- (NSUInteger)supportedInterfaceOrientations{
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
+    return UIInterfaceOrientationMaskAll;
+}
+
 #pragma mark - Table View
 // 右侧显示的小图标
 -(NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
@@ -347,16 +345,15 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"MeetContactCell";
-    MeetContactCell* cell = (MeetContactCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *CellIdentifier = @"AddressBookCell";
+    UITableViewCell* cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
     cell.backgroundColor = [UIColor clearColor];
     
     if (cell == nil)
     {
-        NSArray* nib = [[NSBundle mainBundle] loadNibNamed:@"MeetContactCell" owner:self options:nil];
-        cell = [nib objectAtIndex:0];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
-    cell.pMeetViewControlsDelegate = (id)self;
     
     NSMutableString* pName = [NSMutableString string];
     NSString* pNickName = [NSString string];
@@ -383,16 +380,8 @@
         pNickName = [pDicTionary objectForKey:@"SAVE_NAME"];
 
     }
-
-    [cell.pSelectImageView setHidden:YES];
-    [cell.pIconImageView setHidden:YES];
-
-    cell.pContactNameLabel.frame = CGRectMake(15, 6, 220, 21);
-    cell.pContactNameLabel.text = pName;
-    cell.pContactPhoneLabel.frame = CGRectMake(15, 26, 220, 21);
-    cell.pContactPhoneLabel.text = pTempPhone;
-
-    
+    cell.textLabel.text = pName;
+    cell.detailTextLabel.text = pTempPhone;
     return cell;
 }
 
@@ -481,17 +470,12 @@
             }
         }
 //    }
-    
-    
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *) searchBar
 {
     [pAddressBookTableView reloadData];
 }
-
-
-#pragma mark - UISearchDisplayDelegate
 
 #pragma mark - UISearchDisplayDelegate
 
@@ -539,7 +523,6 @@
             NSMutableDictionary* pDicTionary = [NSMutableDictionary dictionary];
             pDicTionary = [persons objectAtIndex:j];
             
-            
             NSString* pName = [pDicTionary objectForKey:@"SAVE_NAME"];
             NSString* pPhone = [pDicTionary objectForKey:@"SAVE_PHONE"];
             //NSString* pName = [array objectAtIndex:j];
@@ -584,7 +567,6 @@
     }
 }
 
-
 #pragma mark - 辅助函数
 
 -(NSString*)SearchGetFirstLetter:(NSString*)searchStr   //得到搜索后的首字母，searchStr表示搜索前的字符串
@@ -621,18 +603,6 @@
 		return YES;
 	else
 		return NO;
-}
-
--(void) meetMessagecallback:(int)event param:(int)param
-{
-}
-
-- (void)viewDidUnload
-{
-    [self setTitlebarImgView:nil];
-    [self setBackBtn:nil];
-    [self setSureBtn:nil];
-    [super viewDidUnload];
 }
 
 @end

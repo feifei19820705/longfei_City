@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "pinyin.h"
-#import "POAPinyin.h"
+
 
 @interface AddressBook_Meet_ViewController : UIViewController <UISearchDisplayDelegate,UITableViewDataSource, UITableViewDelegate, UIActionSheetDelegate,UISearchBarDelegate>
 {
@@ -28,7 +27,6 @@
 @property (retain, nonatomic) IBOutlet UIImageView *titlebarImgView;
 
 @property (retain, nonatomic) IBOutlet UIButton *backBtn;
-@property (retain, nonatomic) IBOutlet UIButton *sureBtn;
 
 -(IBAction)BackBUttonAction:(id)sender;      //返回按钮响应函数
 

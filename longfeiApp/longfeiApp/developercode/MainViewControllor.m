@@ -267,13 +267,13 @@
     }
     else if(item.tag == 101)
     {
-//        [self ShowUsersPhoneInfo:NO];
-//        AddressBook_Meet_ViewController* pAddressView = [[AddressBook_Meet_ViewController alloc] initWithNibName:@"AddressBook_Meet_ViewController" bundle:nil];
-//        [self presentViewController:pAddressView animated:YES completion:^{
-//            
-//        }];
-//        [pAddressView release];
-        [DataSelectorView showDataSelector:self.view];
+        [self ShowUsersPhoneInfo:NO];
+        AddressBook_Meet_ViewController* pAddressView = [[AddressBook_Meet_ViewController alloc] initWithNibName:@"AddressBook_Meet_ViewController" bundle:nil];
+        [self presentViewController:pAddressView animated:YES completion:^{
+            
+        }];
+        [pAddressView release];
+//        [DataSelectorView showDataSelector:self.view];
     }
     else if (item.tag == 102)
     {
